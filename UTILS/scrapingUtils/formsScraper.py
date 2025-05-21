@@ -71,7 +71,9 @@ def get_form_data(url: str = None, use_file: str = "") -> tuple[list, list, list
     return questions, answers, question_type, correct_answers, feedback
 
 
-def format_into_json(questions, answers, type, corrects, feedback=None, filepath=None) -> dict:
+def format_into_json(
+    questions, answers, type, corrects, feedback=None, filepath=None
+) -> dict:
     """Format the data into a json file for the quiz app.
     For format of the json file, refer to the README.
 
@@ -202,6 +204,7 @@ def get_correct_answers(parser, class_id):
 
     return correct_answers_divs
 
+
 def get_feedback(parser, class_id):
     """Get the feedback for each question from the google form.
     The feedback is in a div with the class 'D42QGf' and the question name
@@ -230,9 +233,11 @@ def get_feedback(parser, class_id):
         )  # name of the question to associate it with the answer
         div_feedback = div.find(
             "div", class_=class_id
-        ) #the class of the div containing the feedback
+        )  # the class of the div containing the feedback
         if div_feedback:
-            feedback_divs[" ".join(qname.text.split())] = " ".join(div_feedback.text.split())
+            feedback_divs[" ".join(qname.text.split())] = " ".join(
+                div_feedback.text.split()
+            )
         else:
             feedback_divs[" ".join(qname.text.split())] = "No feedback available"
     return feedback_divs
@@ -248,7 +253,7 @@ if __name__ == "__main__":
     assert name.endswith(".json")
 
     # q, a, t = get_data(url=url, use_file='test_answers.html')
-    q, a, t, c, f= get_form_data(
+    q, a, t, c, f = get_form_data(
         use_file=file
     )  # questions, answers, question type, correct answers
     json_output = format_into_json(q, a, t, c, f, filepath=name)

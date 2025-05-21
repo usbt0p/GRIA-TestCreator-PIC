@@ -1,525 +1,417 @@
 {
-    "questions": [
-        {
-            "question": "Which of the following best characterizes the main difference between cloud computing and earlier models such as the Application Service Provider (ASP) model?",
-            "options": [
-                "Cloud computing focuses on static provisioning while ASP supports dynamic scaling",
-                "ASP models offer better elasticity than cloud computing",
-                "Cloud computing supports automated provisioning and elasticity, unlike ASP models",
-                "ASP allows more granular billing mechanisms compared to cloud computing"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "A is incorrect because cloud computing emphasizes **dynamic** (not static) provisioning.B is wrong; ASP lacked the elasticity that defines modern cloud infrastructures.D is partially true but misses the point—the key differentiator is not billing granularity but **automation and elasticity**."
-        },
-        {
-            "question": "Which of the following are core properties of cloud computing as described in the reading?",
-            "options": [
-                "Automated provisioning and de-provisioning",
-                "Manual SLA negotiation for each resource change",
-                "Pay-as-you-go billing model",
-                "High dependency on local resource availability",
-                "Application integration via APIs"
-            ],
-            "correct_options": [
-                0,
-                2,
-                4
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "B refers to the older models; cloud computing automates this process.D is false; one key advantage of the cloud is **location independence**."
-        },
-        {
-            "question": "Which of the following business motivations drive the convergence of IoT and cloud computing?",
-            "options": [
-                "The need for device-specific control interfaces",
-                "Support for computationally intensive AI services",
-                "Access to development tools regardless of location",
-                "Avoidance of CAPEX in early IoT start-ups",
-                "Elimination of interoperability challenges across devices"
-            ],
-            "correct_options": [
-                1,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "A is incorrect; cloud integration abstracts device control.E is aspirational; interoperability is a **challenge**, not a current benefit."
-        },
-        {
-            "question": "In the context of IoT-cloud integration, what is the key limitation that edge computing directly addresses?",
-            "options": [
-                "Security compliance in cloud-hosted applications",
-                "Low cost of on-premises infrastructure",
-                "Real-time response requirements in field applications",
-                "Lack of storage capacity in centralized data centers"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is a concern but not the **primary motivator** for edge computing.- *B* is misleading; edge computing does not reduce infrastructure costs directly.- *D* is incorrect; storage inefficiency is one problem, but **latency** and **real-time response** are central."
-        },
-        {
-            "question": "Which of the following best explains why the PaaS model is considered the most widespread for IoT cloud service delivery?",
-            "options": [
-                "It offers fixed device integration contracts suitable for static networks",
-                "It provides access to infrastructure resources only, keeping developers away from complexity",
-                "It combines access to data and services with tools for rapid application development",
-                "It prioritizes cost reduction over development capabilities"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is irrelevant to the dynamic and scalable nature of IoT services.- *B* describes IaaS, not PaaS.- *D* oversimplifies; cost is a factor, but **developer support** is the core strength of PaaS in IoT."
-        },
-        {
-            "question": "Which of the following challenges must IoT-cloud platforms address to ensure interoperability and effective integration?",
-            "options": [
-                "Data quality and timestamp inconsistencies",
-                "Homogeneous reference units across all devices",
-                "Presence of virtual and physical sensors",
-                "Semantically diverse data formats",
-                "Fixed data schemas enforced by IoT gateways"
-            ],
-            "correct_options": [
-                0,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* is incorrect; **heterogeneity** of units is a **problem**, not a solved condition.- *E* is false; cloud platforms must **accommodate** diverse schemas, not enforce fixed ones."
-        },
-        {
-            "question": "What management tasks are commonly associated with cloud service delivery for IoT systems?",
-            "options": [
-                "Load balancing and multitenancy",
-                "Configuration of routing protocols for mobile networks",
-                "Patch and update management",
-                "Capacity planning of cloud nodes and infrastructure",
-                "Manual provisioning of virtual machines"
-            ],
-            "correct_options": [
-                0,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* is related to network operators, not core cloud management.- *E* is outdated—cloud computing emphasizes **automated provisioning**."
-        },
-        {
-            "question": "Why is Amazon EC2 considered a canonical example of IaaS in cloud computing?",
-            "options": [
-                "It focuses only on database hosting and offloads all computation",
-                "It limits customization to promote interoperability across vendors",
-                "It provides on-demand virtual servers and elastic storage with minimal setup",
-                "It offers a closed system with proprietary APIs"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is incorrect; EC2 supports **compute and storage**.- *B* is misleading; **flexibility** is a feature of IaaS, not a limitation.- *D* is false; EC2 uses **well-known APIs and open hypervisors like Xen**."
-        },
-        {
-            "question": "Which of the following statements about public cloud IoT platforms like Xively and ThingWorx are accurate?",
-            "options": [
-                "They offer RESTful and MQTT APIs for device integration",
-                "They rely entirely on local (on-premise) deployments",
-                "They include message-oriented middleware for real-time data handling",
-                "They provide development environments with integrated analytics",
-                "They eliminate the need for cloud-based storage"
-            ],
-            "correct_options": [
-                0,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* is incorrect; these platforms are **cloud-native**.- *E* is false; platforms like Xively emphasize **big data cloud storage**."
-        },
-        {
-            "question": "A smart traffic management system in a city needs to react to vehicle congestion in real time. Which architecture best supports this requirement?",
-            "options": [
-                "Cloud-only architecture using centralized analysis and storage",
-                "Edge computing architecture using on-device processing and localized actuation",
-                "Fog computing using batch-processing in a metropolitan data center",
-                "Public IoT cloud PaaS with remote access to sensor APIs"
-            ],
-            "correct_option": [
-                1
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* introduces latency due to centralized processing, which is unsuitable for real-time needs.- *C* improves latency but still routes data to intermediate nodes.- *D* adds flexibility but does not guarantee **local real-time response**."
-        },
-        {
-            "question": "An IoT start-up needs rapid development, scalability, minimal investment, and real-time analytics. Which cloud platforms or models fit?",
-            "options": [
-                "PaaS model like Microsoft Azure IoT",
-                "On-premise private cloud with manual scaling",
-                "SaaS solution tailored to general medical record keeping",
-                "Amazon AWS IoT with integrated rules engine and SDKs",
-                "Open-source platform like OpenIoT supporting semantic data models"
-            ],
-            "correct_options": [
-                0,
-                3,
-                4
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* contradicts scalability and upfront cost requirements.- *C* offers generic services, not custom development support.- *A*, *D*, and *E* support development, scalability, and flexible integration."
-        },
-        {
-            "question": "Which of the following most accurately characterizes the role of APIs in cloud-based IoT platforms?",
-            "options": [
-                "APIs are used to hard-code device behaviors in firmware",
-                "APIs enable human operators to configure cloud dashboards manually",
-                "APIs facilitate interoperability and programmatic interaction among services, devices, and data",
-                "APIs replace the need for middleware in IoT applications"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* misunderstands firmware vs. integration roles.- *B* describes a user interface, not an API.- *D* is incorrect; middleware is often built *on top* of APIs."
-        },
-        {
-            "question": "You are designing an industrial monitoring system for a remote oil rig with unreliable internet and critical data. Which approaches are appropriate?",
-            "options": [
-                "Edge computing to enable local analytics and reduce dependency on WAN",
-                "Fog computing gateway to provide intermediate processing and protocol translation",
-                "Cloud-only solution using Amazon EC2 instances",
-                "Hybrid cloud-edge architecture with selective cloud synchronization",
-                "SaaS dashboard for remote device control without any local processing"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* fails under connectivity constraints.- *E* contradicts the privacy and autonomy needs in low-connectivity environments."
-        },
-        {
-            "question": "An automotive manufacturer wants to implement predictive maintenance using vehicle sensor data globally. Which architecture is best?",
-            "options": [
-                "Edge-only model storing data locally in each vehicle",
-                "Cloud-based infrastructure using IaaS for scalable compute and storage",
-                "Manual data transfer to offline data centers for model training",
-                "Fog nodes in dealerships processing data and sending logs quarterly"
-            ],
-            "correct_option": [
-                1
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* fails to support global aggregation and model updates.- *C* is operationally impractical.- *D* introduces latency incompatible with predictive maintenance loops."
-        },
-        {
-            "question": "Which of the following best captures the architectural distinction between edge computing and fog computing?",
-            "options": [
-                "Edge devices must include virtualization software, while fog nodes do not",
-                "Edge computing emphasizes location-aware security, while fog nodes abstract all security concerns to the cloud",
-                "Edge computing is typically standalone or cloud-connected, while fog computing emphasizes coordination across a distributed infrastructure with shared APIs and hierarchical layering",
-                "Fog computing is limited to hardware devices that directly sense the environment"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is incorrect; virtualization is more common in fog nodes.- *B* misrepresents fog computing, which has its own security layers.- *D* confuses fog with sensor hardware. Fog nodes may not include sensors directly."
-        },
-        {
-            "question": "What factors should an IoT architect consider when choosing between a simple edge architecture and a fog computing topology?",
-            "options": [
-                "The number and variability of sensors over time",
-                "The data volume generated and the need for reduction at the source",
-                "The preference for proprietary interfaces over standardized APIs",
-                "The system's reliability requirements and fault tolerance strategy",
-                "The ability of individual sensors to interface directly with HTTP services"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* is irrelevant—fog architectures benefit from **standardization**, not proprietary fragmentation.- *E* oversimplifies; many sensors use non-IP protocols and require **gateways**."
-        },
-        {
-            "question": "A company deploys a cold-chain monitoring system across warehouses. It needs local fault detection, real-time response, and centralized oversight. Which architecture is most suitable?",
-            "options": [
-                "Edge-only nodes directly uploading all sensor data to the cloud",
-                "Centralized cloud-only model with periodic polling",
-                "Fog nodes managing local control and aggregation, coordinated by a parent cloud",
-                "Peer-to-peer sensor mesh with direct inter-node decision making"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* and *B* introduce unacceptable latency.- *D* lacks the **scalability and control** expected in distributed industrial deployments."
-        },
-        {
-            "question": "Which of the following are benefits of using OpenStack as a cloud reference architecture for IoT systems?",
-            "options": [
-                "Modular components like Nova and Glance allow for flexible resource control",
-                "RabbitMQ enables tightly coupled communication between cloud nodes",
-                "Keystone handles authentication and authorization across services",
-                "Swift provides scalable object storage for VM images and logs",
-                "All OpenStack services must be deployed manually without APIs"
-            ],
-            "correct_options": [
-                0,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* is wrong; OpenStack intentionally uses **loosely coupled** messaging for scalability.- *E* contradicts the fact that OpenStack supports **RESTful APIs**."
-        },
-        {
-            "question": "Which challenge is most directly addressed by deploying Greengrass Lambda functions on edge devices in a fog architecture?",
-            "options": [
-                "Maintaining centralized control over all sensor activity",
-                "Enabling sensors to be discovered automatically through REST APIs",
-                "Enabling local processing and command execution even when offline",
-                "Synchronizing non-IP devices directly with HTTP services"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* contradicts the **autonomous operation** design of fog nodes.- *B* overstates Greengrass's service discovery features.- *D* misunderstands that Greengrass **relies on MQTT**, not HTTP."
-        },
-        {
-            "question": "You are designing a fog architecture for a fleet of autonomous drones that collect high-resolution video data in areas with poor or intermittent connectivity. Which capability of the fog architecture is most critical in this use case?",
-            "options": [
-                "On-demand VM cloning using Glance image services",
-                "Multi-cloud bursting support in hybrid clouds",
-                "East-west data fusion and localized decision-making at fog nodes",
-                "Public-key distribution to enable secure Wi-Fi roaming"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* refers to cloud VM management, irrelevant to real-time drone operations.- *B* addresses scalability but not **local autonomy**.- *D* is too narrow and doesn’t address the **core need for local processing** under poor connectivity."
-        },
-        {
-            "question": "Which of the following are key architectural distinctions between OpenFog-based fog computing and cloud-only deployments?",
-            "options": [
-                "Fog architectures include geographically aware routing and mesh reconfiguration",
-                "OpenFog nodes can support accelerators such as GPUs or FPGAs",
-                "OpenFog treats hardware as a tightly coupled monolith",
-                "Fog systems may include multi-tiered node hierarchies for load distribution",
-                "OpenFog relies on serverless function execution but forbids container-based services"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* is incorrect—OpenFog explicitly **virtualizes and abstracts hardware**.- *E* is false—OpenFog promotes **containerized microservices**, including serverless options."
-        },
-        {
-            "question": "Which of the following correctly describes the role of protocol abstraction in fog computing?",
-            "options": [
-                "It converts IP packets into Zigbee frames for WPAN transmission",
-                "It removes the need for any standardization across edge devices",
-                "It enables heterogeneous sensor types to communicate through a unified interface",
-                "It synchronizes all sensor readings to a common clock domain"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* reverses the usual flow (Zigbee ➝ IP translation).- *B* contradicts the goal—protocol abstraction enables **interoperability**.- *D* is false; abstraction doesn't necessarily handle **synchronization**."
-        },
-        {
-            "question": "Which fog system characteristics are especially important when designing for high-availability and fault-tolerant industrial IoT systems?",
-            "options": [
-                "Support for watchdog nodes to monitor peer failures",
-                "Load balancing across fog nodes based on latency and capacity",
-                "Exclusive cloud dependence to reduce infrastructure costs",
-                "Failover-aware mesh routing in the network layer",
-                "Persistent block storage through services like OpenStack Cinder"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* introduces a **single point of failure**, not resilience.- *E* is valid in cloud contexts but **less common in constrained fog environments**."
-        },
-        {
-            "question": "Which of the following statements best explains the relationship between MapReduce and fog computing?",
-            "options": [
-                "MapReduce’s shuffle phase is replaced by MQTT brokers in fog systems",
-                "Fog computing applies MapReduce principles to localize processing and reduce data transfer overhead",
-                "Fog computing only supports the reduce phase of MapReduce to simplify architecture",
-                "Fog nodes use HDFS to cache raw sensor data for map operations"
-            ],
-            "correct_option": [
-                1
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* misrepresents architectural roles; MQTT handles **messaging**, not computation.- *C* is false; fog computing supports **end-to-end workflows**, not just reduce.- *D* is technically possible but not **definitional** to the analogy."
-        },
-        {
-            "question": "You are deploying an IoT-based smart manufacturing line that must adjust robotic arms within a 2–5 ms window after detecting a defect. The cameras and sensors generate gigabytes of video data per hour. Which is the least suitable architecture?",
-            "options": [
-                "Edge computing with embedded inference",
-                "Fog computing with localized processing and buffering",
-                "Cloud-only architecture hosted in a remote AWS data center",
-                "Multi-tier fog topology with GPGPU-equipped intermediate nodes"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* and *B* provide fast local responses.- *D* enables **hierarchical load distribution** with acceleration.- *C* introduces **unacceptable latency** (≥40 ms US-local; >100 ms international)."
-        },
-        {
-            "question": "Which of the following design strategies are recommended when deploying a fog network in environments with dynamic sensor populations, such as sports arenas or temporary events?",
-            "options": [
-                "Allow dynamic scaling of fog nodes based on the number of connected devices",
-                "Pre-allocate fixed compute capacity for worst-case attendance scenarios",
-                "Use fog nodes with protocol abstraction to support heterogeneous sensor types",
-                "Incorporate east-west communication among fog nodes for load redistribution",
-                "Disable edge-side filtering to maximize upstream data fidelity"
-            ],
-            "correct_options": [
-                0,
-                2,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *B* is cost-inefficient and not scalable.- *E* contradicts the need for **data volume reduction** at the edge."
-        },
-        {
-            "question": "According to latency measurements in the reading, what is a reasonable best-case latency (round-trip) between a US West client and an AWS cloud data center?",
-            "options": [
-                "3 ms",
-                "10 ms",
-                "39 ms",
-                "140 ms"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* and *B* represent **local or edge-level latency**.- *D* is true for **Europe (London)**; the US West best case is **~39 ms**"
-        },
-        {
-            "question": "Which factors justify choosing a multi-tier fog hierarchy instead of a flat fog architecture?",
-            "options": [
-                "High data throughput requiring distributed pre-processing",
-                "Need for east-west analytics among geographically distributed nodes",
-                "Simplification of orchestration via flat discovery models",
-                "Requirement for fallback computation paths in failure scenarios",
-                "Use of cloud-native container clusters without edge support"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* goes against the idea of **hierarchical scaling**.- *E* belongs to **cloud-first** deployments, not fog hierarchies."
-        },
-        {
-            "question": "A municipality plans to deploy an environmental monitoring system using BLE-connected air quality sensors and wants to offload pattern recognition and aggregation. Which fog node design is most suitable?",
-            "options": [
-                "Sensor-level processing with HTTP push",
-                "On-prem private cloud with static provisioning",
-                "Gateway-based fog node supporting BLE, protocol abstraction, and local inference",
-                "VM-based edge node requiring constant internet access for function deployment"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is limited by BLE capabilities and cannot support heavy inference.- *B* adds unnecessary complexity and doesn’t suit **low-latency WPAN**.- *D* violates the design constraint of **resilience to intermittent connectivity**."
-        },
-        {
-            "question": "In OpenStack, which component is responsible for launching and managing multiple cloud applications using templates that resemble AWS CloudFormation?",
-            "options": [
-                "Keystone",
-                "Heat",
-                "Glance",
-                "Ceilometer"
-            ],
-            "correct_option": [
-                1
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* is for **identity management**.- *C* handles **VM images**, not orchestration.- *D* supports **telemetry**, not deployment control."
-        },
-        {
-            "question": "Which of the following are key features of Ceilometer, the OpenStack telemetry system?",
-            "options": [
-                "Metering of resource usage (CPU, memory, bandwidth)",
-                "Pricing conversion (rating) and initiation of billing",
-                "Scheduling of container migrations between hosts",
-                "Collection of metrics for autoscaling decisions",
-                "Management of VM state transitions (e.g., MIGRATING → ACTIVE)"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* is handled by orchestration systems like **Heat** or the **Nova scheduler**.- *E* is part of **Nova**, not Ceilometer."
-        },
-        {
-            "question": "A remote fog deployment in a critical infrastructure site must remain operational despite physical tampering or network disruption. Which architectural feature should be prioritized?",
-            "options": [
-                "Horizontal scalability via cloud bursting",
-                "RESTful API for image service control",
-                "Peer-to-peer node monitoring and hardware-level security",
-                "Dynamic container orchestration from the cloud"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* assumes **WAN availability** and is irrelevant in isolated deployments.- *B* is not security-related.- *D* fails if **internet connectivity is lost**."
-        },
-        {
-            "question": "Which features are emphasized in the OpenFog node security and network layers?",
-            "options": [
-                "Detection of physical intrusion or tampering",
-                "Resilient routing through mesh reconfiguration",
-                "Direct IP connectivity to every sensor in the PAN",
-                "East-west traffic monitoring for anomaly detection",
-                "VPN termination between fog and cloud"
-            ],
-            "correct_options": [
-                0,
-                1,
-                3
-            ],
-            "questionType": "multipleChoice",
-            "feedback": "- *C* ignores that many edge devices are **non-IP** (Zigbee, BLE).- *E* is cloud networking, not specific to fog node architecture."
-        },
-        {
-            "question": "In OpenFog architectures, what is the role of accelerator services?",
-            "options": [
-                "Ensuring real-time MQTT delivery to cloud VMs",
-                "Providing modular upgrade paths for fog dashboards",
-                "Augmenting compute capacity using GPGPUs or FPGAs for vision and ML tasks",
-                "Pre-loading firmware updates onto constrained devices"
-            ],
-            "correct_option": [
-                2
-            ],
-            "questionType": "singleChoice",
-            "feedback": "- *A* relates to networking, not acceleration.- *B* concerns UI extensibility, not compute enhancement.- *D* falls under **device management**, not compute acceleration"
-        }
-    ]
+  "questions": [
+    {
+      "question": "Which of the following best characterizes the main difference between cloud computing and earlier models such as the Application Service Provider (ASP) model?",
+      "options": [
+        "Cloud computing focuses on static provisioning while ASP supports dynamic scaling",
+        "ASP models offer better elasticity than cloud computing",
+        "Cloud computing supports automated provisioning and elasticity, unlike ASP models",
+        "ASP allows more granular billing mechanisms compared to cloud computing"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "A is incorrect because cloud computing emphasizes **dynamic** (not static) provisioning.B is wrong; ASP lacked the elasticity that defines modern cloud infrastructures.D is partially true but misses the point—the key differentiator is not billing granularity but **automation and elasticity**."
+    },
+    {
+      "question": "Which of the following are core properties of cloud computing as described in the reading?",
+      "options": [
+        "Automated provisioning and de-provisioning",
+        "Manual SLA negotiation for each resource change",
+        "Pay-as-you-go billing model",
+        "High dependency on local resource availability",
+        "Application integration via APIs"
+      ],
+      "correct_options": [0, 2, 4],
+      "questionType": "multipleChoice",
+      "feedback": "B refers to the older models; cloud computing automates this process.D is false; one key advantage of the cloud is **location independence**."
+    },
+    {
+      "question": "Which of the following business motivations drive the convergence of IoT and cloud computing?",
+      "options": [
+        "The need for device-specific control interfaces",
+        "Support for computationally intensive AI services",
+        "Access to development tools regardless of location",
+        "Avoidance of CAPEX in early IoT start-ups",
+        "Elimination of interoperability challenges across devices"
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "A is incorrect; cloud integration abstracts device control.E is aspirational; interoperability is a **challenge**, not a current benefit."
+    },
+    {
+      "question": "In the context of IoT-cloud integration, what is the key limitation that edge computing directly addresses?",
+      "options": [
+        "Security compliance in cloud-hosted applications",
+        "Low cost of on-premises infrastructure",
+        "Real-time response requirements in field applications",
+        "Lack of storage capacity in centralized data centers"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is a concern but not the **primary motivator** for edge computing.- *B* is misleading; edge computing does not reduce infrastructure costs directly.- *D* is incorrect; storage inefficiency is one problem, but **latency** and **real-time response** are central."
+    },
+    {
+      "question": "Which of the following best explains why the PaaS model is considered the most widespread for IoT cloud service delivery?",
+      "options": [
+        "It offers fixed device integration contracts suitable for static networks",
+        "It provides access to infrastructure resources only, keeping developers away from complexity",
+        "It combines access to data and services with tools for rapid application development",
+        "It prioritizes cost reduction over development capabilities"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is irrelevant to the dynamic and scalable nature of IoT services.- *B* describes IaaS, not PaaS.- *D* oversimplifies; cost is a factor, but **developer support** is the core strength of PaaS in IoT."
+    },
+    {
+      "question": "Which of the following challenges must IoT-cloud platforms address to ensure interoperability and effective integration?",
+      "options": [
+        "Data quality and timestamp inconsistencies",
+        "Homogeneous reference units across all devices",
+        "Presence of virtual and physical sensors",
+        "Semantically diverse data formats",
+        "Fixed data schemas enforced by IoT gateways"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* is incorrect; **heterogeneity** of units is a **problem**, not a solved condition.- *E* is false; cloud platforms must **accommodate** diverse schemas, not enforce fixed ones."
+    },
+    {
+      "question": "What management tasks are commonly associated with cloud service delivery for IoT systems?",
+      "options": [
+        "Load balancing and multitenancy",
+        "Configuration of routing protocols for mobile networks",
+        "Patch and update management",
+        "Capacity planning of cloud nodes and infrastructure",
+        "Manual provisioning of virtual machines"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* is related to network operators, not core cloud management.- *E* is outdated—cloud computing emphasizes **automated provisioning**."
+    },
+    {
+      "question": "Why is Amazon EC2 considered a canonical example of IaaS in cloud computing?",
+      "options": [
+        "It focuses only on database hosting and offloads all computation",
+        "It limits customization to promote interoperability across vendors",
+        "It provides on-demand virtual servers and elastic storage with minimal setup",
+        "It offers a closed system with proprietary APIs"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is incorrect; EC2 supports **compute and storage**.- *B* is misleading; **flexibility** is a feature of IaaS, not a limitation.- *D* is false; EC2 uses **well-known APIs and open hypervisors like Xen**."
+    },
+    {
+      "question": "Which of the following statements about public cloud IoT platforms like Xively and ThingWorx are accurate?",
+      "options": [
+        "They offer RESTful and MQTT APIs for device integration",
+        "They rely entirely on local (on-premise) deployments",
+        "They include message-oriented middleware for real-time data handling",
+        "They provide development environments with integrated analytics",
+        "They eliminate the need for cloud-based storage"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* is incorrect; these platforms are **cloud-native**.- *E* is false; platforms like Xively emphasize **big data cloud storage**."
+    },
+    {
+      "question": "A smart traffic management system in a city needs to react to vehicle congestion in real time. Which architecture best supports this requirement?",
+      "options": [
+        "Cloud-only architecture using centralized analysis and storage",
+        "Edge computing architecture using on-device processing and localized actuation",
+        "Fog computing using batch-processing in a metropolitan data center",
+        "Public IoT cloud PaaS with remote access to sensor APIs"
+      ],
+      "correct_option": [1],
+      "questionType": "singleChoice",
+      "feedback": "- *A* introduces latency due to centralized processing, which is unsuitable for real-time needs.- *C* improves latency but still routes data to intermediate nodes.- *D* adds flexibility but does not guarantee **local real-time response**."
+    },
+    {
+      "question": "An IoT start-up needs rapid development, scalability, minimal investment, and real-time analytics. Which cloud platforms or models fit?",
+      "options": [
+        "PaaS model like Microsoft Azure IoT",
+        "On-premise private cloud with manual scaling",
+        "SaaS solution tailored to general medical record keeping",
+        "Amazon AWS IoT with integrated rules engine and SDKs",
+        "Open-source platform like OpenIoT supporting semantic data models"
+      ],
+      "correct_options": [0, 3, 4],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* contradicts scalability and upfront cost requirements.- *C* offers generic services, not custom development support.- *A*, *D*, and *E* support development, scalability, and flexible integration."
+    },
+    {
+      "question": "Which of the following most accurately characterizes the role of APIs in cloud-based IoT platforms?",
+      "options": [
+        "APIs are used to hard-code device behaviors in firmware",
+        "APIs enable human operators to configure cloud dashboards manually",
+        "APIs facilitate interoperability and programmatic interaction among services, devices, and data",
+        "APIs replace the need for middleware in IoT applications"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* misunderstands firmware vs. integration roles.- *B* describes a user interface, not an API.- *D* is incorrect; middleware is often built *on top* of APIs."
+    },
+    {
+      "question": "You are designing an industrial monitoring system for a remote oil rig with unreliable internet and critical data. Which approaches are appropriate?",
+      "options": [
+        "Edge computing to enable local analytics and reduce dependency on WAN",
+        "Fog computing gateway to provide intermediate processing and protocol translation",
+        "Cloud-only solution using Amazon EC2 instances",
+        "Hybrid cloud-edge architecture with selective cloud synchronization",
+        "SaaS dashboard for remote device control without any local processing"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* fails under connectivity constraints.- *E* contradicts the privacy and autonomy needs in low-connectivity environments."
+    },
+    {
+      "question": "An automotive manufacturer wants to implement predictive maintenance using vehicle sensor data globally. Which architecture is best?",
+      "options": [
+        "Edge-only model storing data locally in each vehicle",
+        "Cloud-based infrastructure using IaaS for scalable compute and storage",
+        "Manual data transfer to offline data centers for model training",
+        "Fog nodes in dealerships processing data and sending logs quarterly"
+      ],
+      "correct_option": [1],
+      "questionType": "singleChoice",
+      "feedback": "- *A* fails to support global aggregation and model updates.- *C* is operationally impractical.- *D* introduces latency incompatible with predictive maintenance loops."
+    },
+    {
+      "question": "Which of the following best captures the architectural distinction between edge computing and fog computing?",
+      "options": [
+        "Edge devices must include virtualization software, while fog nodes do not",
+        "Edge computing emphasizes location-aware security, while fog nodes abstract all security concerns to the cloud",
+        "Edge computing is typically standalone or cloud-connected, while fog computing emphasizes coordination across a distributed infrastructure with shared APIs and hierarchical layering",
+        "Fog computing is limited to hardware devices that directly sense the environment"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is incorrect; virtualization is more common in fog nodes.- *B* misrepresents fog computing, which has its own security layers.- *D* confuses fog with sensor hardware. Fog nodes may not include sensors directly."
+    },
+    {
+      "question": "What factors should an IoT architect consider when choosing between a simple edge architecture and a fog computing topology?",
+      "options": [
+        "The number and variability of sensors over time",
+        "The data volume generated and the need for reduction at the source",
+        "The preference for proprietary interfaces over standardized APIs",
+        "The system's reliability requirements and fault tolerance strategy",
+        "The ability of individual sensors to interface directly with HTTP services"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* is irrelevant—fog architectures benefit from **standardization**, not proprietary fragmentation.- *E* oversimplifies; many sensors use non-IP protocols and require **gateways**."
+    },
+    {
+      "question": "A company deploys a cold-chain monitoring system across warehouses. It needs local fault detection, real-time response, and centralized oversight. Which architecture is most suitable?",
+      "options": [
+        "Edge-only nodes directly uploading all sensor data to the cloud",
+        "Centralized cloud-only model with periodic polling",
+        "Fog nodes managing local control and aggregation, coordinated by a parent cloud",
+        "Peer-to-peer sensor mesh with direct inter-node decision making"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* and *B* introduce unacceptable latency.- *D* lacks the **scalability and control** expected in distributed industrial deployments."
+    },
+    {
+      "question": "Which of the following are benefits of using OpenStack as a cloud reference architecture for IoT systems?",
+      "options": [
+        "Modular components like Nova and Glance allow for flexible resource control",
+        "RabbitMQ enables tightly coupled communication between cloud nodes",
+        "Keystone handles authentication and authorization across services",
+        "Swift provides scalable object storage for VM images and logs",
+        "All OpenStack services must be deployed manually without APIs"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* is wrong; OpenStack intentionally uses **loosely coupled** messaging for scalability.- *E* contradicts the fact that OpenStack supports **RESTful APIs**."
+    },
+    {
+      "question": "Which challenge is most directly addressed by deploying Greengrass Lambda functions on edge devices in a fog architecture?",
+      "options": [
+        "Maintaining centralized control over all sensor activity",
+        "Enabling sensors to be discovered automatically through REST APIs",
+        "Enabling local processing and command execution even when offline",
+        "Synchronizing non-IP devices directly with HTTP services"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* contradicts the **autonomous operation** design of fog nodes.- *B* overstates Greengrass's service discovery features.- *D* misunderstands that Greengrass **relies on MQTT**, not HTTP."
+    },
+    {
+      "question": "You are designing a fog architecture for a fleet of autonomous drones that collect high-resolution video data in areas with poor or intermittent connectivity. Which capability of the fog architecture is most critical in this use case?",
+      "options": [
+        "On-demand VM cloning using Glance image services",
+        "Multi-cloud bursting support in hybrid clouds",
+        "East-west data fusion and localized decision-making at fog nodes",
+        "Public-key distribution to enable secure Wi-Fi roaming"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* refers to cloud VM management, irrelevant to real-time drone operations.- *B* addresses scalability but not **local autonomy**.- *D* is too narrow and doesn’t address the **core need for local processing** under poor connectivity."
+    },
+    {
+      "question": "Which of the following are key architectural distinctions between OpenFog-based fog computing and cloud-only deployments?",
+      "options": [
+        "Fog architectures include geographically aware routing and mesh reconfiguration",
+        "OpenFog nodes can support accelerators such as GPUs or FPGAs",
+        "OpenFog treats hardware as a tightly coupled monolith",
+        "Fog systems may include multi-tiered node hierarchies for load distribution",
+        "OpenFog relies on serverless function execution but forbids container-based services"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* is incorrect—OpenFog explicitly **virtualizes and abstracts hardware**.- *E* is false—OpenFog promotes **containerized microservices**, including serverless options."
+    },
+    {
+      "question": "Which of the following correctly describes the role of protocol abstraction in fog computing?",
+      "options": [
+        "It converts IP packets into Zigbee frames for WPAN transmission",
+        "It removes the need for any standardization across edge devices",
+        "It enables heterogeneous sensor types to communicate through a unified interface",
+        "It synchronizes all sensor readings to a common clock domain"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* reverses the usual flow (Zigbee ➝ IP translation).- *B* contradicts the goal—protocol abstraction enables **interoperability**.- *D* is false; abstraction doesn't necessarily handle **synchronization**."
+    },
+    {
+      "question": "Which fog system characteristics are especially important when designing for high-availability and fault-tolerant industrial IoT systems?",
+      "options": [
+        "Support for watchdog nodes to monitor peer failures",
+        "Load balancing across fog nodes based on latency and capacity",
+        "Exclusive cloud dependence to reduce infrastructure costs",
+        "Failover-aware mesh routing in the network layer",
+        "Persistent block storage through services like OpenStack Cinder"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* introduces a **single point of failure**, not resilience.- *E* is valid in cloud contexts but **less common in constrained fog environments**."
+    },
+    {
+      "question": "Which of the following statements best explains the relationship between MapReduce and fog computing?",
+      "options": [
+        "MapReduce’s shuffle phase is replaced by MQTT brokers in fog systems",
+        "Fog computing applies MapReduce principles to localize processing and reduce data transfer overhead",
+        "Fog computing only supports the reduce phase of MapReduce to simplify architecture",
+        "Fog nodes use HDFS to cache raw sensor data for map operations"
+      ],
+      "correct_option": [1],
+      "questionType": "singleChoice",
+      "feedback": "- *A* misrepresents architectural roles; MQTT handles **messaging**, not computation.- *C* is false; fog computing supports **end-to-end workflows**, not just reduce.- *D* is technically possible but not **definitional** to the analogy."
+    },
+    {
+      "question": "You are deploying an IoT-based smart manufacturing line that must adjust robotic arms within a 2–5 ms window after detecting a defect. The cameras and sensors generate gigabytes of video data per hour. Which is the least suitable architecture?",
+      "options": [
+        "Edge computing with embedded inference",
+        "Fog computing with localized processing and buffering",
+        "Cloud-only architecture hosted in a remote AWS data center",
+        "Multi-tier fog topology with GPGPU-equipped intermediate nodes"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* and *B* provide fast local responses.- *D* enables **hierarchical load distribution** with acceleration.- *C* introduces **unacceptable latency** (≥40 ms US-local; >100 ms international)."
+    },
+    {
+      "question": "Which of the following design strategies are recommended when deploying a fog network in environments with dynamic sensor populations, such as sports arenas or temporary events?",
+      "options": [
+        "Allow dynamic scaling of fog nodes based on the number of connected devices",
+        "Pre-allocate fixed compute capacity for worst-case attendance scenarios",
+        "Use fog nodes with protocol abstraction to support heterogeneous sensor types",
+        "Incorporate east-west communication among fog nodes for load redistribution",
+        "Disable edge-side filtering to maximize upstream data fidelity"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *B* is cost-inefficient and not scalable.- *E* contradicts the need for **data volume reduction** at the edge."
+    },
+    {
+      "question": "According to latency measurements in the reading, what is a reasonable best-case latency (round-trip) between a US West client and an AWS cloud data center?",
+      "options": ["3 ms", "10 ms", "39 ms", "140 ms"],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* and *B* represent **local or edge-level latency**.- *D* is true for **Europe (London)**; the US West best case is **~39 ms**"
+    },
+    {
+      "question": "Which factors justify choosing a multi-tier fog hierarchy instead of a flat fog architecture?",
+      "options": [
+        "High data throughput requiring distributed pre-processing",
+        "Need for east-west analytics among geographically distributed nodes",
+        "Simplification of orchestration via flat discovery models",
+        "Requirement for fallback computation paths in failure scenarios",
+        "Use of cloud-native container clusters without edge support"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* goes against the idea of **hierarchical scaling**.- *E* belongs to **cloud-first** deployments, not fog hierarchies."
+    },
+    {
+      "question": "A municipality plans to deploy an environmental monitoring system using BLE-connected air quality sensors and wants to offload pattern recognition and aggregation. Which fog node design is most suitable?",
+      "options": [
+        "Sensor-level processing with HTTP push",
+        "On-prem private cloud with static provisioning",
+        "Gateway-based fog node supporting BLE, protocol abstraction, and local inference",
+        "VM-based edge node requiring constant internet access for function deployment"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is limited by BLE capabilities and cannot support heavy inference.- *B* adds unnecessary complexity and doesn’t suit **low-latency WPAN**.- *D* violates the design constraint of **resilience to intermittent connectivity**."
+    },
+    {
+      "question": "In OpenStack, which component is responsible for launching and managing multiple cloud applications using templates that resemble AWS CloudFormation?",
+      "options": ["Keystone", "Heat", "Glance", "Ceilometer"],
+      "correct_option": [1],
+      "questionType": "singleChoice",
+      "feedback": "- *A* is for **identity management**.- *C* handles **VM images**, not orchestration.- *D* supports **telemetry**, not deployment control."
+    },
+    {
+      "question": "Which of the following are key features of Ceilometer, the OpenStack telemetry system?",
+      "options": [
+        "Metering of resource usage (CPU, memory, bandwidth)",
+        "Pricing conversion (rating) and initiation of billing",
+        "Scheduling of container migrations between hosts",
+        "Collection of metrics for autoscaling decisions",
+        "Management of VM state transitions (e.g., MIGRATING → ACTIVE)"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* is handled by orchestration systems like **Heat** or the **Nova scheduler**.- *E* is part of **Nova**, not Ceilometer."
+    },
+    {
+      "question": "A remote fog deployment in a critical infrastructure site must remain operational despite physical tampering or network disruption. Which architectural feature should be prioritized?",
+      "options": [
+        "Horizontal scalability via cloud bursting",
+        "RESTful API for image service control",
+        "Peer-to-peer node monitoring and hardware-level security",
+        "Dynamic container orchestration from the cloud"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* assumes **WAN availability** and is irrelevant in isolated deployments.- *B* is not security-related.- *D* fails if **internet connectivity is lost**."
+    },
+    {
+      "question": "Which features are emphasized in the OpenFog node security and network layers?",
+      "options": [
+        "Detection of physical intrusion or tampering",
+        "Resilient routing through mesh reconfiguration",
+        "Direct IP connectivity to every sensor in the PAN",
+        "East-west traffic monitoring for anomaly detection",
+        "VPN termination between fog and cloud"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice",
+      "feedback": "- *C* ignores that many edge devices are **non-IP** (Zigbee, BLE).- *E* is cloud networking, not specific to fog node architecture."
+    },
+    {
+      "question": "In OpenFog architectures, what is the role of accelerator services?",
+      "options": [
+        "Ensuring real-time MQTT delivery to cloud VMs",
+        "Providing modular upgrade paths for fog dashboards",
+        "Augmenting compute capacity using GPGPUs or FPGAs for vision and ML tasks",
+        "Pre-loading firmware updates onto constrained devices"
+      ],
+      "correct_option": [2],
+      "questionType": "singleChoice",
+      "feedback": "- *A* relates to networking, not acceleration.- *B* concerns UI extensibility, not compute enhancement.- *D* falls under **device management**, not compute acceleration"
+    }
+  ]
 }
