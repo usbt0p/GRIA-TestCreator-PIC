@@ -99,7 +99,7 @@ def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
             dict_q = {
                 "question": q,
                 "options": a,
-                "correct_option": None, 
+                "correct_option": None,
                 "questionType": type,
             }
         elif t == 4:
@@ -167,9 +167,7 @@ def get_correct_answers(parser, class_id):
         )  # D42QGf is the class of the div containing the correct answers
         if div:
             answerbox = div.find_all("span", dir="auto")
-            to_add = [" ".join(span.text.split()) 
-                      for span in answerbox]
-            # 
+            to_add = [" ".join(span.text.split()) for span in answerbox]
             correct_answers_divs[" ".join(qname.text.split())] = to_add
         else:
             # if we don't find it, it means the question is not answered wrong
@@ -179,9 +177,7 @@ def get_correct_answers(parser, class_id):
             print(
                 "WARNING!::One question was not answered wrong, so the correct answer is not available."
             )
-            print(
-                "Please fill it in manually, the correct_options field will be null."
-            )
+            print("Please fill it in manually, the correct_options field will be null.")
 
     return correct_answers_divs
 
