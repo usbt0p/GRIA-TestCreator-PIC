@@ -167,13 +167,13 @@ def get_correct_answers(parser, class_id):
         )  # D42QGf is the class of the div containing the correct answers
         if div:
             answerbox = div.find_all("span", dir="auto")
-            to_add = [span.text for span in answerbox]
-            correct_answers_divs[qname.text] = to_add
+            to_add = [" ".join(span.text.split()) for span in answerbox]
+            correct_answers_divs[" ".join(qname.text.split())] = to_add
         else:
             # if we don't find it, it means the question is not answered wrong
             # and you must fill it in manually
             # FIXME extend on here to get the correct ones...
-            correct_answers_divs[qname.text] = [None]
+            correct_answers_divs[" ".join(qname.text.split())] = [None]
             print(
                 "WARNING!::One question was not answered wrong, so the correct answer is not available."
             )
@@ -187,7 +187,7 @@ if __name__ == "__main__":
     # Example usage
     # url = input("Enter the url: ")
     # name = input("Enter complete file name: ")
-    name = "Unit8Teacher.json"
+    name = "PIC2/Unit9Teacher.json"
     file = "UTILS/scrapingUtils/test.html"
     assert name.endswith(".json")
 
