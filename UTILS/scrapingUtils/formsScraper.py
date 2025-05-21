@@ -116,9 +116,15 @@ def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
     for i, q in enumerate(dict_qs["questions"]):
         if q["question"] in corrects:
             if q["questionType"] == "singleChoice":
-                dict_qs["questions"][i]["correct_option"] = corrects[q["question"]][0]
+                # go from the strings to their index
+
+                dict_qs["questions"][i]["correct_option"] = [
+                    q["options"].index(corrects[q["question"]][0])
+                ]
             elif q["questionType"] == "multipleChoice":
-                dict_qs["questions"][i]["correct_options"] = corrects[q["question"]]
+                dict_qs["questions"][i]["correct_options"] = [
+                    q["options"].index(i) for i in corrects[q["question"]]
+                ]
         else:
             print("WARNING::Question mismatch!")
             print(
