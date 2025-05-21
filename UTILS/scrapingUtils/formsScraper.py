@@ -99,7 +99,7 @@ def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
             dict_q = {
                 "question": q,
                 "options": a,
-                "correct_option": None, 
+                "correct_option": None,
                 "questionType": type,
             }
         elif t == 4:
@@ -177,9 +177,7 @@ def get_correct_answers(parser, class_id):
             print(
                 "WARNING!::One question was not answered wrong, so the correct answer is not available."
             )
-            print(
-                "Please fill it in manually, the correct_options field will be null."
-            )
+            print("Please fill it in manually, the correct_options field will be null.")
 
     return correct_answers_divs
 
