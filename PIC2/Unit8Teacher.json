@@ -736,7 +736,7 @@
                 "Dimensionality reduction",
                 "Unsupervised learning"
             ],
-            "correct_option": null,
+            "correct_option": "Reinforcement learning",
             "questionType": "singleChoice"
         },
         {
