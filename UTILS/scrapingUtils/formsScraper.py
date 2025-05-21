@@ -26,7 +26,7 @@ def get_form_data(url: str = None, use_file: str = "") -> tuple[list, list, list
     """
 
     if use_file:
-        with open("test.html", "r") as file:
+        with open(use_file, "r") as file:
             url_content = file.read()
     else:
         url_client = urlopen(url)
@@ -61,12 +61,15 @@ def get_form_data(url: str = None, use_file: str = "") -> tuple[list, list, list
 
         question_type.append(pair[3])
 
+    # the code is the default one for correct div
+    correct_answers = get_correct_answers(parser, "D42QGf")
+
     assert len(questions) == len(answers)
 
-    return questions, answers, question_type
+    return questions, answers, question_type, correct_answers
 
 
-def format_into_json(questions, answers, type, filepath=None) -> dict:
+def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
     """Format the data into a json file for the quiz app.
     For format of the json file, refer to the README.
 
@@ -90,12 +93,13 @@ def format_into_json(questions, answers, type, filepath=None) -> dict:
     dict_qs = {"questions": []}
 
     for q, a, t in zip(questions, answers, type):
+        q = q.replace("\n", "")
         if t == 2:
             type = "singleChoice"
             dict_q = {
                 "question": q,
                 "options": a,
-                "correct_option": None,
+                "correct_option": None, 
                 "questionType": type,
             }
         elif t == 4:
@@ -103,10 +107,23 @@ def format_into_json(questions, answers, type, filepath=None) -> dict:
             dict_q = {
                 "question": q,
                 "options": a,
-                "correct_options": [],  # TODO implement a way to get this
+                "correct_options": None,
                 "questionType": type,
             }
         dict_qs["questions"].append(dict_q)
+
+    # add the correct answers to the dict
+    for i, q in enumerate(dict_qs["questions"]):
+        if q["question"] in corrects:
+            if q["questionType"] == "singleChoice":
+                dict_qs["questions"][i]["correct_option"] = corrects[q["question"]][0]
+            elif q["questionType"] == "multipleChoice":
+                dict_qs["questions"][i]["correct_options"] = corrects[q["question"]]
+        else:
+            print("WARNING::Question mismatch!")
+            print(
+                "This means answer key and question key are not equivalent due to something. Fill it manually"
+            )
 
     if filepath:
         with open(filepath, "w") as file:
@@ -115,35 +132,75 @@ def format_into_json(questions, answers, type, filepath=None) -> dict:
     return dict_qs
 
 
-def get_correct_answers(html_content, class_id):
-    # TODO this only works for the questions you answered WRONG
-    # must implement a way to get the ones that are right!!!
-    # also, you have to manually search for the class of the div containing the correct answers (class_id), which is shit
-    parser = soup(html_content, "html.parser")
-    correct_answers_divs = parser.find_all("div", class_=class_id)
+def get_correct_answers(parser, class_id):
+    """Get the correct answers from the google form.
+    The correct answers are in a div with the class 'D42QGf' and the question name
+    is in a span with the class 'M7eMe'.
 
-    correct_answers = []
-    for div in correct_answers_divs:
-        answer_spans = div.find_all("span", dir="auto")
-        for span in answer_spans:
-            correct_answers.append(span.text)
+    This only works for the questions you answered WRONG.
+    Must implement a way to get the ones that are right!!!
 
-    return correct_answers
+    Parameters
+    ----------
+    parser : BeautifulSoup
+            The parser to use.
+    class_id : str
+            The class id of the div containing the correct answers.
+    Returns
+    -------
+    dict
+            The dictionary of correct answers.
+    """
+
+    correct_answers_divs = {}
+    divs = parser.find_all(
+        "div", class_="OxAavc"
+    )  # hardcoded code for the question divs
+    for div in divs:
+        # search for this specific class_id in the div, in order
+        # if we find it, it means the question is answered wrong and has the correction
+        qname = div.find(
+            "span", class_="M7eMe"
+        )  # name of the question to associate it with the answer
+        div = div.find(
+            "div", class_=class_id
+        )  # D42QGf is the class of the div containing the correct answers
+        if div:
+            answerbox = div.find_all("span", dir="auto")
+            to_add = [span.text for span in answerbox]
+            correct_answers_divs[qname.text] = to_add
+        else:
+            # if we don't find it, it means the question is not answered wrong
+            # and you must fill it in manually
+            # FIXME extend on here to get the correct ones...
+            correct_answers_divs[qname.text] = [None]
+            print(
+                "WARNING!::One question was not answered wrong, so the correct answer is not available."
+            )
+            print(
+                "Please fill it in manually, the correct_options field will be null."
+            )
+
+    return correct_answers_divs
 
 
 if __name__ == "__main__":
 
     # Example usage
-    url = input("Enter the url: ")
-    name = input("Enter complete file name: ")
+    # url = input("Enter the url: ")
+    # name = input("Enter complete file name: ")
+    name = "Unit8Teacher.json"
+    file = "UTILS/scrapingUtils/test.html"
     assert name.endswith(".json")
 
     # q, a, t = get_data(url=url, use_file='test_answers.html')
-    q, a, t = get_form_data(url=url)  # questions, answers, question type
-    json_output = format_into_json(q, a, t, filepath=name)
+    q, a, t, c = get_form_data(
+        use_file=file
+    )  # questions, answers, question type, correct answers
+    json_output = format_into_json(q, a, t, c, filepath=name)
 
-    """# Example usage of get_correct_answers
-    with open('test_answers.html', 'r') as file:
-        html_content = file.read()
-    correct_answers = get_correct_answers(html_content, 'D42QGf')
-    print(correct_answers)"""
+    # Example usage of get_correct_answers
+    # with open(file, 'r') as file:
+    #     html_content = file.read()
+    # parser = soup(html_content, "html.parser")
+    # correct_answers = get_correct_answers(parser, 'D42QGf')
