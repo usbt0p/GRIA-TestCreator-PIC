@@ -1,408 +1,403 @@
 {
-    "questions": [
-        {
-            "question": "Which of the following are realistic applications of digital twins as enabled by the Industrial Internet of Things (IIoT)?",
-            "options": [
-                "Simulating the failure modes of jet engines before manufacturing",
-                "Reconstructing user behavior patterns on social media in real time",
-                "Managing the energy output of wind farms through virtual replicas",
-                "Providing immersive AR experiences for product marketing",
-                "Diagnosing patients remotely using a virtual replica of their medical state"
-            ],
-            "correct_options": [
-                "Simulating the failure modes of jet engines before manufacturing",
-                "Managing the energy output of wind farms through virtual replicas",
-                "Diagnosing patients remotely using a virtual replica of their medical state"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "In the context of Industry 4.0, which technologies are most directly integrated to enable autonomous industrial decision-making systems?",
-            "options": [
-                "Smart sensors",
-                "Fog computing nodes",
-                "Quantum computing cores",
-                "Deep learning neural networks",
-                "Edge AI processors"
-            ],
-            "correct_options": [
-                "Smart sensors",
-                "Fog computing nodes",
-                "Deep learning neural networks",
-                "Edge AI processors"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "A city government wants to optimize waste collection routes and schedules. They want to reduce costs and carbon emissions while maintaining cleanliness. Which IoT-enabled solution best fits their needs?",
-            "options": [
-                "Use public camera feeds analyzed by AI to detect full bins.",
-                "Equip bins with fill-level sensors that communicate wirelessly with a central dispatch system.",
-                "Track garbage trucks using GPS to ensure route compliance.",
-                "Deploy smart assistant kiosks to gather citizen reports on full bins."
-            ],
-            "correct_option": "Equip bins with fill-level sensors that communicate wirelessly with a central dispatch system.",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following benefits are realistically associated with embedding AI in industrial IoT systems?",
-            "options": [
-                "Eliminating the need for human oversight in critical safety applications",
-                "Reducing response times through edge-based automation",
-                "Supporting predictive maintenance to reduce downtime",
-                "Enhancing dynamic pricing strategies based on real-time consumption",
-                "Guaranteeing perfect decision-making based on complete data"
-            ],
-            "correct_options": [
-                "Reducing response times through edge-based automation",
-                "Supporting predictive maintenance to reduce downtime",
-                "Enhancing dynamic pricing strategies based on real-time consumption"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "A logistics firm wants to ensure that food transported across a supply chain hasn’t spoiled. What is the most appropriate IoT solution to monitor this?",
-            "options": [
-                "Install vibration sensors in delivery vehicles",
-                "Use RFID tags on all shipments to track position",
-                "Embed temperature and humidity sensors with each shipment and log data in real-time",
-                "Analyze historical weather data from transit routes"
-            ],
-            "correct_option": "Embed temperature and humidity sensors with each shipment and log data in real-time",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What best distinguishes the Fourth Industrial Revolution (4IR) from earlier industrial revolutions?",
-            "options": [
-                "It focuses solely on smart manufacturing technologies.",
-                "It relies heavily on cyber-physical systems and real-time data-driven automation.",
-                "It centers on the replacement of labor with robots.",
-                "It marks the shift from analog to digital computation."
-            ],
-            "correct_option": "It relies heavily on cyber-physical systems and real-time data-driven automation.",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "A hospital is looking to reduce infection risks while ensuring continuous monitoring of medical equipment and personnel movement. Which solutions would best address their goals using IoT?",
-            "options": [
-                "Equip medical staff with RFID badges for location tracking",
-                "Embed thermal sensors and machine learning to detect fever symptoms at entry points",
-                "Replace human staff with AI chatbots for all patient interaction",
-                "Install asset tracking systems for medical equipment like infusion pumps",
-                "Place cameras with facial recognition in all rooms to monitor behavior"
-            ],
-            "correct_options": [
-                "Equip medical staff with RFID badges for location tracking",
-                "Embed thermal sensors and machine learning to detect fever symptoms at entry points",
-                "Install asset tracking systems for medical equipment like infusion pumps"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What is the main reason perfect predictive models are hard to achieve in industrial IoT systems?",
-            "options": [
-                "Most data comes from proprietary sources, limiting model generalizability",
-                "Computational power is insufficient to analyze large datasets",
-                "The chaotic nature of physical systems makes it nearly impossible to gather all relevant variables",
-                "IoT systems still lack standardized APIs to ensure proper data integration"
-            ],
-            "correct_option": "The chaotic nature of physical systems makes it nearly impossible to gather all relevant variables",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "You’re designing a smart utility grid for a data center to minimize power consumption during peak hours. Which approach best reflects IR4 principles for this use case?",
-            "options": [
-                "Schedule power shutdowns for non-essential servers manually",
-                "Use smart meters and thermostats connected to AI systems for dynamic load balancing",
-                "Outsource energy management to third-party consultants",
-                "Send weekly reports to human analysts to adjust air conditioning usage"
-            ],
-            "correct_option": "Use smart meters and thermostats connected to AI systems for dynamic load balancing",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which statements best describe realistic outcomes of IoT-enabled predictive maintenance?",
-            "options": [
-                "It helps in identifying component wear patterns in advance to schedule timely intervention.",
-                "It eliminates the need for all human intervention in the maintenance process.",
-                "It shifts the paradigm from time-based to condition-based maintenance.",
-                "It can lead to fully autonomous part ordering and replacement scheduling.",
-                "It completely removes the occurrence of unexpected failures in all cases."
-            ],
-            "correct_options": [
-                "It helps in identifying component wear patterns in advance to schedule timely intervention.",
-                "It shifts the paradigm from time-based to condition-based maintenance.",
-                "It can lead to fully autonomous part ordering and replacement scheduling."
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following scenarios illustrate the *services* functionality of IoT?",
-            "options": [
-                "An insurance company buys usage data from a connected tire manufacturer.",
-                "A connected washing machine reorders detergent automatically.",
-                "A sensor-equipped bridge transmits structural integrity metrics to engineers.",
-                "A retailer uses WiFi triangulation data to offer in-store promotions.",
-                "A user remotely switches on their home heater via smartphone."
-            ],
-            "correct_options": [
-                "An insurance company buys usage data from a connected tire manufacturer.",
-                "A connected washing machine reorders detergent automatically.",
-                "A retailer uses WiFi triangulation data to offer in-store promotions."
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following best explains the relationship between verticals like smart cities, smart buildings, and connected health systems?",
-            "options": [
-                "They are hierarchically separated layers in the IoT stack and should remain independent.",
-                "They are parallel but disconnected domains in most current IoT systems.",
-                "They can overlap and embed within each other, sharing data and services.",
-                "Each is defined by a specific network protocol and must operate on its own infrastructure."
-            ],
-            "correct_option": "They can overlap and embed within each other, sharing data and services.",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which challenges can be considered as obstacles or constraints for smart energy and infrastructure in urban settings?",
-            "options": [
-                "Limited expansion capacity due to existing infrastructure",
-                "High deployment cost of real-time satellite surveillance",
-                "Aging water and gas pipe systems with frequent undetected leaks",
-                "One-directional grid architectures incompatible with microtransactions",
-                "Short battery life of wireless air quality sensors"
-            ],
-            "correct_options": [
-                "Limited expansion capacity due to existing infrastructure",
-                "Aging water and gas pipe systems with frequent undetected leaks",
-                "One-directional grid architectures incompatible with microtransactions"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which statements correctly describe the role of consumers in future smart energy ecosystems?",
-            "options": [
-                "Consumers can engage in microtransactions by selling electricity from EVs to the grid.",
-                "Consumers passively receive electricity and have no influence on energy markets.",
-                "Smart meters allow consumers to access real-time data on their energy usage.",
-                "Consumers may shift energy consumption behavior based on cost feedback.",
-                "All energy balancing happens at the municipal level; consumer decisions are irrelevant."
-            ],
-            "correct_options": [
-                "Consumers can engage in microtransactions by selling electricity from EVs to the grid.",
-                "Smart meters allow consumers to access real-time data on their energy usage.",
-                "Consumers may shift energy consumption behavior based on cost feedback."
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "You are tasked with designing a smart waste management system for a large city. Which components or strategies should be part of your IoT-enabled solution?",
-            "options": [
-                "Sensors in collection containers to monitor fill levels",
-                "Real-time integration with traffic data for routing collection trucks",
-                "Use of drones to visually inspect urban garbage accumulation",
-                "Predictive analytics based on historical waste generation patterns",
-                "Fixed daily collection schedules regardless of bin status"
-            ],
-            "correct_options": [
-                "Sensors in collection containers to monitor fill levels",
-                "Real-time integration with traffic data for routing collection trucks",
-                "Predictive analytics based on historical waste generation patterns"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following are incorrect assumptions about IoT-enabled smart manufacturing?",
-            "options": [
-                "The MES layer operates independently from real-time sensor data",
-                "Tool tracking improves both quality assurance and safety",
-                "Customers can submit customization requests during production",
-                "Predictive maintenance eliminates the need for any scheduled servicing",
-                "Usage data from products can inform future design iterations"
-            ],
-            "correct_options": [
-                "The MES layer operates independently from real-time sensor data",
-                "Predictive maintenance eliminates the need for any scheduled servicing"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following statements about IIoT applications are correct?",
-            "options": [
-                "Flexible production lines reduce dependence on operational technology (OT) reconfiguration.",
-                "Predictive maintenance eliminates the need for condition monitoring systems.",
-                "Digital twins integrate current and historical data to support what-if simulations.",
-                "AR/VR training environments eliminate the need for safety regulations in training.",
-                "Zero Defect Manufacturing leverages digital data to optimize cost, quality, and energy."
-            ],
-            "correct_options": [
-                "Flexible production lines reduce dependence on operational technology (OT) reconfiguration.",
-                "Digital twins integrate current and historical data to support what-if simulations.",
-                "Zero Defect Manufacturing leverages digital data to optimize cost, quality, and energy."
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following applications would most accurately be classified as *ambient-assisted living (AAL)* within the IoT healthcare framework?",
-            "options": [
-                "A smartwatch detecting falls and automatically alerting caregivers",
-                "A platform recommending exercise routines based on fitness tracking data",
-                "A sensor-based pillbox reminding patients to take medications",
-                "A hospital-wide asset tracking system for infusion pumps",
-                "A mobile ECG scanner for home use, synced with a cloud platform"
-            ],
-            "correct_options": [
-                "A smartwatch detecting falls and automatically alerting caregivers",
-                "A sensor-based pillbox reminding patients to take medications",
-                "A mobile ECG scanner for home use, synced with a cloud platform"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "A manufacturing company wants to increase product customization without increasing operational downtime. Which strategy is most aligned with IIoT principles?",
-            "options": [
-                "Install additional CNC machines for every custom product variant",
-                "Use CPS and IIoT to dynamically reconfigure production lines",
-                "Pre-manufacture all customization variants and store them in warehouses",
-                "Outsource product customization to external vendors"
-            ],
-            "correct_option": "Use CPS and IIoT to dynamically reconfigure production lines",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following best explains how open data contributes to smart city development?",
-            "options": [
-                "It helps enforce strict access controls on IoT systems.",
-                "It ensures only private companies have access to high-value datasets.",
-                "It boosts innovation and transparency by enabling access to datasets by all stakeholders.",
-                "It eliminates the need for interoperability between data silos."
-            ],
-            "correct_option": "It boosts innovation and transparency by enabling access to datasets by all stakeholders.",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the primary role of the CPwE (Converged Plantwide Ethernet) architecture in manufacturing?",
-            "options": [
-                "Enable cloud-based factory management through 5G integration",
-                "Standardize all manufacturing equipment to use Wi-Fi and Bluetooth",
-                "Integrate IACS applications with enterprise IT systems over a secure Ethernet network",
-                "Replace proprietary automation protocols with generic TCP/IP stacks"
-            ],
-            "correct_option": "Integrate IACS applications with enterprise IT systems over a secure Ethernet network",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "In the CPwE architecture, which elements are found in the cell/area zone (Levels 0–2)?",
-            "options": [
-                "PLCs and DCS controllers",
-                "Human–machine interfaces (HMIs)",
-                "SCADA servers and scheduling systems",
-                "Sensors and actuators for process control",
-                "ERP systems for resource planning"
-            ],
-            "correct_options": [
-                "PLCs and DCS controllers",
-                "Human–machine interfaces (HMIs)",
-                "Sensors and actuators for process control"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Why is fast network reconvergence (<100 ms) critical in IACS networks?",
-            "options": [
-                "It ensures that legacy equipment can remain on the network",
-                "It prevents factory workers from needing to manually reset machines",
-                "It maintains real-time control communication during link or switch failures",
-                "It simplifies network planning for future factory expansions"
-            ],
-            "correct_option": "It maintains real-time control communication during link or switch failures",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following correctly differentiate the industrial automation protocols discussed?",
-            "options": [
-                "EtherNet/IP supports real-time messaging using UDP multicast",
-                "PROFINET bypasses the IP stack for deterministic frame transmission",
-                "Modbus/TCP uses connectionless communication for low-latency response",
-                "EtherNet/IP uses CIP for both implicit and explicit messaging",
-                "PROFINET is favored in North America due to Siemens’ dominance"
-            ],
-            "correct_options": [
-                "EtherNet/IP supports real-time messaging using UDP multicast",
-                "PROFINET bypasses the IP stack for deterministic frame transmission",
-                "EtherNet/IP uses CIP for both implicit and explicit messaging"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following activities occur in the data-to-insight-to-action cycle described for manufacturing IoT systems?",
-            "options": [
-                "Converting analog machine signals into digitized sensor streams",
-                "Aggregating operational data in cloud-based ERP systems",
-                "Applying analytics to detect production anomalies",
-                "Replacing low-performing workers based on efficiency metrics",
-                "Adjusting machine settings in real-time based on anomaly detection results"
-            ],
-            "correct_options": [
-                "Converting analog machine signals into digitized sensor streams",
-                "Applying analytics to detect production anomalies",
-                "Adjusting machine settings in real-time based on anomaly detection results"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "A manufacturer wants to align shop floor operations with customer order systems. Which integration is required?",
-            "options": [
-                "Horizontal integration across multiple manufacturing sites",
-                "Integration of MES (Manufacturing Execution System) with ERP",
-                "Connecting SCADA with field devices",
-                "Establishing new VLANs across legacy control zones"
-            ],
-            "correct_option": "Integration of MES (Manufacturing Execution System) with ERP",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which characteristics of industrial environments must be considered when designing IIoT deployments?",
-            "options": [
-                "Long equipment life cycles and proprietary protocols",
-                "Deterministic timing and low-latency requirements",
-                "Frequent hardware upgrades to support new standards",
-                "Harsh environmental conditions (dust, temperature, vibrations)",
-                "High tolerance for packet loss in control loops"
-            ],
-            "correct_options": [
-                "Long equipment life cycles and proprietary protocols",
-                "Deterministic timing and low-latency requirements",
-                "Harsh environmental conditions (dust, temperature, vibrations)"
-            ],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "In a smart factory, which element serves as the bridge between operational technology (OT) systems and IT analytics platforms?",
-            "options": [
-                "PLC",
-                "ERP",
-                "SCADA",
-                "Edge gateway"
-            ],
-            "correct_option": "Edge gateway",
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following organizational outcomes are enabled by industrial IoT adoption?",
-            "options": [
-                "Shorter product development cycles via digital feedback loops",
-                "Elimination of all manual inspection processes",
-                "Enhanced cross-department coordination through real-time data sharing",
-                "Ability to manage supply chain disruptions through early alerts",
-                "Reduced need for skilled operators in all roles"
-            ],
-            "correct_options": [
-                "Shorter product development cycles via digital feedback loops",
-                "Enhanced cross-department coordination through real-time data sharing",
-                "Ability to manage supply chain disruptions through early alerts"
-            ],
-            "questionType": "multipleChoice"
-        }
-    ]
+  "questions": [
+    {
+      "question": "Which of the following are realistic applications of digital twins as enabled by the Industrial Internet of Things (IIoT)?",
+      "options": [
+        "Simulating the failure modes of jet engines before manufacturing",
+        "Reconstructing user behavior patterns on social media in real time",
+        "Managing the energy output of wind farms through virtual replicas",
+        "Providing immersive AR experiences for product marketing",
+        "Diagnosing patients remotely using a virtual replica of their medical state"
+      ],
+      "correct_options": [
+        "Simulating the failure modes of jet engines before manufacturing",
+        "Managing the energy output of wind farms through virtual replicas",
+        "Diagnosing patients remotely using a virtual replica of their medical state"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "In the context of Industry 4.0, which technologies are most directly integrated to enable autonomous industrial decision-making systems?",
+      "options": [
+        "Smart sensors",
+        "Fog computing nodes",
+        "Quantum computing cores",
+        "Deep learning neural networks",
+        "Edge AI processors"
+      ],
+      "correct_options": [
+        "Smart sensors",
+        "Fog computing nodes",
+        "Deep learning neural networks",
+        "Edge AI processors"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "A city government wants to optimize waste collection routes and schedules. They want to reduce costs and carbon emissions while maintaining cleanliness. Which IoT-enabled solution best fits their needs?",
+      "options": [
+        "Use public camera feeds analyzed by AI to detect full bins.",
+        "Equip bins with fill-level sensors that communicate wirelessly with a central dispatch system.",
+        "Track garbage trucks using GPS to ensure route compliance.",
+        "Deploy smart assistant kiosks to gather citizen reports on full bins."
+      ],
+      "correct_option": "Equip bins with fill-level sensors that communicate wirelessly with a central dispatch system.",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following benefits are realistically associated with embedding AI in industrial IoT systems?",
+      "options": [
+        "Eliminating the need for human oversight in critical safety applications",
+        "Reducing response times through edge-based automation",
+        "Supporting predictive maintenance to reduce downtime",
+        "Enhancing dynamic pricing strategies based on real-time consumption",
+        "Guaranteeing perfect decision-making based on complete data"
+      ],
+      "correct_options": [
+        "Reducing response times through edge-based automation",
+        "Supporting predictive maintenance to reduce downtime",
+        "Enhancing dynamic pricing strategies based on real-time consumption"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "A logistics firm wants to ensure that food transported across a supply chain hasn’t spoiled. What is the most appropriate IoT solution to monitor this?",
+      "options": [
+        "Install vibration sensors in delivery vehicles",
+        "Use RFID tags on all shipments to track position",
+        "Embed temperature and humidity sensors with each shipment and log data in real-time",
+        "Analyze historical weather data from transit routes"
+      ],
+      "correct_option": "Embed temperature and humidity sensors with each shipment and log data in real-time",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What best distinguishes the Fourth Industrial Revolution (4IR) from earlier industrial revolutions?",
+      "options": [
+        "It focuses solely on smart manufacturing technologies.",
+        "It relies heavily on cyber-physical systems and real-time data-driven automation.",
+        "It centers on the replacement of labor with robots.",
+        "It marks the shift from analog to digital computation."
+      ],
+      "correct_option": "It relies heavily on cyber-physical systems and real-time data-driven automation.",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "A hospital is looking to reduce infection risks while ensuring continuous monitoring of medical equipment and personnel movement. Which solutions would best address their goals using IoT?",
+      "options": [
+        "Equip medical staff with RFID badges for location tracking",
+        "Embed thermal sensors and machine learning to detect fever symptoms at entry points",
+        "Replace human staff with AI chatbots for all patient interaction",
+        "Install asset tracking systems for medical equipment like infusion pumps",
+        "Place cameras with facial recognition in all rooms to monitor behavior"
+      ],
+      "correct_options": [
+        "Equip medical staff with RFID badges for location tracking",
+        "Embed thermal sensors and machine learning to detect fever symptoms at entry points",
+        "Install asset tracking systems for medical equipment like infusion pumps"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is the main reason perfect predictive models are hard to achieve in industrial IoT systems?",
+      "options": [
+        "Most data comes from proprietary sources, limiting model generalizability",
+        "Computational power is insufficient to analyze large datasets",
+        "The chaotic nature of physical systems makes it nearly impossible to gather all relevant variables",
+        "IoT systems still lack standardized APIs to ensure proper data integration"
+      ],
+      "correct_option": "The chaotic nature of physical systems makes it nearly impossible to gather all relevant variables",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "You’re designing a smart utility grid for a data center to minimize power consumption during peak hours. Which approach best reflects IR4 principles for this use case?",
+      "options": [
+        "Schedule power shutdowns for non-essential servers manually",
+        "Use smart meters and thermostats connected to AI systems for dynamic load balancing",
+        "Outsource energy management to third-party consultants",
+        "Send weekly reports to human analysts to adjust air conditioning usage"
+      ],
+      "correct_option": "Use smart meters and thermostats connected to AI systems for dynamic load balancing",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which statements best describe realistic outcomes of IoT-enabled predictive maintenance?",
+      "options": [
+        "It helps in identifying component wear patterns in advance to schedule timely intervention.",
+        "It eliminates the need for all human intervention in the maintenance process.",
+        "It shifts the paradigm from time-based to condition-based maintenance.",
+        "It can lead to fully autonomous part ordering and replacement scheduling.",
+        "It completely removes the occurrence of unexpected failures in all cases."
+      ],
+      "correct_options": [
+        "It helps in identifying component wear patterns in advance to schedule timely intervention.",
+        "It shifts the paradigm from time-based to condition-based maintenance.",
+        "It can lead to fully autonomous part ordering and replacement scheduling."
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following scenarios illustrate the *services* functionality of IoT?",
+      "options": [
+        "An insurance company buys usage data from a connected tire manufacturer.",
+        "A connected washing machine reorders detergent automatically.",
+        "A sensor-equipped bridge transmits structural integrity metrics to engineers.",
+        "A retailer uses WiFi triangulation data to offer in-store promotions.",
+        "A user remotely switches on their home heater via smartphone."
+      ],
+      "correct_options": [
+        "An insurance company buys usage data from a connected tire manufacturer.",
+        "A connected washing machine reorders detergent automatically.",
+        "A retailer uses WiFi triangulation data to offer in-store promotions."
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following best explains the relationship between verticals like smart cities, smart buildings, and connected health systems?",
+      "options": [
+        "They are hierarchically separated layers in the IoT stack and should remain independent.",
+        "They are parallel but disconnected domains in most current IoT systems.",
+        "They can overlap and embed within each other, sharing data and services.",
+        "Each is defined by a specific network protocol and must operate on its own infrastructure."
+      ],
+      "correct_option": "They can overlap and embed within each other, sharing data and services.",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which challenges can be considered as obstacles or constraints for smart energy and infrastructure in urban settings?",
+      "options": [
+        "Limited expansion capacity due to existing infrastructure",
+        "High deployment cost of real-time satellite surveillance",
+        "Aging water and gas pipe systems with frequent undetected leaks",
+        "One-directional grid architectures incompatible with microtransactions",
+        "Short battery life of wireless air quality sensors"
+      ],
+      "correct_options": [
+        "Limited expansion capacity due to existing infrastructure",
+        "Aging water and gas pipe systems with frequent undetected leaks",
+        "One-directional grid architectures incompatible with microtransactions"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which statements correctly describe the role of consumers in future smart energy ecosystems?",
+      "options": [
+        "Consumers can engage in microtransactions by selling electricity from EVs to the grid.",
+        "Consumers passively receive electricity and have no influence on energy markets.",
+        "Smart meters allow consumers to access real-time data on their energy usage.",
+        "Consumers may shift energy consumption behavior based on cost feedback.",
+        "All energy balancing happens at the municipal level; consumer decisions are irrelevant."
+      ],
+      "correct_options": [
+        "Consumers can engage in microtransactions by selling electricity from EVs to the grid.",
+        "Smart meters allow consumers to access real-time data on their energy usage.",
+        "Consumers may shift energy consumption behavior based on cost feedback."
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "You are tasked with designing a smart waste management system for a large city. Which components or strategies should be part of your IoT-enabled solution?",
+      "options": [
+        "Sensors in collection containers to monitor fill levels",
+        "Real-time integration with traffic data for routing collection trucks",
+        "Use of drones to visually inspect urban garbage accumulation",
+        "Predictive analytics based on historical waste generation patterns",
+        "Fixed daily collection schedules regardless of bin status"
+      ],
+      "correct_options": [
+        "Sensors in collection containers to monitor fill levels",
+        "Real-time integration with traffic data for routing collection trucks",
+        "Predictive analytics based on historical waste generation patterns"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are incorrect assumptions about IoT-enabled smart manufacturing?",
+      "options": [
+        "The MES layer operates independently from real-time sensor data",
+        "Tool tracking improves both quality assurance and safety",
+        "Customers can submit customization requests during production",
+        "Predictive maintenance eliminates the need for any scheduled servicing",
+        "Usage data from products can inform future design iterations"
+      ],
+      "correct_options": [
+        "The MES layer operates independently from real-time sensor data",
+        "Predictive maintenance eliminates the need for any scheduled servicing"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about IIoT applications are correct?",
+      "options": [
+        "Flexible production lines reduce dependence on operational technology (OT) reconfiguration.",
+        "Predictive maintenance eliminates the need for condition monitoring systems.",
+        "Digital twins integrate current and historical data to support what-if simulations.",
+        "AR/VR training environments eliminate the need for safety regulations in training.",
+        "Zero Defect Manufacturing leverages digital data to optimize cost, quality, and energy."
+      ],
+      "correct_options": [
+        "Flexible production lines reduce dependence on operational technology (OT) reconfiguration.",
+        "Digital twins integrate current and historical data to support what-if simulations.",
+        "Zero Defect Manufacturing leverages digital data to optimize cost, quality, and energy."
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following applications would most accurately be classified as *ambient-assisted living (AAL)* within the IoT healthcare framework?",
+      "options": [
+        "A smartwatch detecting falls and automatically alerting caregivers",
+        "A platform recommending exercise routines based on fitness tracking data",
+        "A sensor-based pillbox reminding patients to take medications",
+        "A hospital-wide asset tracking system for infusion pumps",
+        "A mobile ECG scanner for home use, synced with a cloud platform"
+      ],
+      "correct_options": [
+        "A smartwatch detecting falls and automatically alerting caregivers",
+        "A sensor-based pillbox reminding patients to take medications",
+        "A mobile ECG scanner for home use, synced with a cloud platform"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "A manufacturing company wants to increase product customization without increasing operational downtime. Which strategy is most aligned with IIoT principles?",
+      "options": [
+        "Install additional CNC machines for every custom product variant",
+        "Use CPS and IIoT to dynamically reconfigure production lines",
+        "Pre-manufacture all customization variants and store them in warehouses",
+        "Outsource product customization to external vendors"
+      ],
+      "correct_option": "Use CPS and IIoT to dynamically reconfigure production lines",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following best explains how open data contributes to smart city development?",
+      "options": [
+        "It helps enforce strict access controls on IoT systems.",
+        "It ensures only private companies have access to high-value datasets.",
+        "It boosts innovation and transparency by enabling access to datasets by all stakeholders.",
+        "It eliminates the need for interoperability between data silos."
+      ],
+      "correct_option": "It boosts innovation and transparency by enabling access to datasets by all stakeholders.",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the primary role of the CPwE (Converged Plantwide Ethernet) architecture in manufacturing?",
+      "options": [
+        "Enable cloud-based factory management through 5G integration",
+        "Standardize all manufacturing equipment to use Wi-Fi and Bluetooth",
+        "Integrate IACS applications with enterprise IT systems over a secure Ethernet network",
+        "Replace proprietary automation protocols with generic TCP/IP stacks"
+      ],
+      "correct_option": "Integrate IACS applications with enterprise IT systems over a secure Ethernet network",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "In the CPwE architecture, which elements are found in the cell/area zone (Levels 0–2)?",
+      "options": [
+        "PLCs and DCS controllers",
+        "Human–machine interfaces (HMIs)",
+        "SCADA servers and scheduling systems",
+        "Sensors and actuators for process control",
+        "ERP systems for resource planning"
+      ],
+      "correct_options": [
+        "PLCs and DCS controllers",
+        "Human–machine interfaces (HMIs)",
+        "Sensors and actuators for process control"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Why is fast network reconvergence (<100 ms) critical in IACS networks?",
+      "options": [
+        "It ensures that legacy equipment can remain on the network",
+        "It prevents factory workers from needing to manually reset machines",
+        "It maintains real-time control communication during link or switch failures",
+        "It simplifies network planning for future factory expansions"
+      ],
+      "correct_option": "It maintains real-time control communication during link or switch failures",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following correctly differentiate the industrial automation protocols discussed?",
+      "options": [
+        "EtherNet/IP supports real-time messaging using UDP multicast",
+        "PROFINET bypasses the IP stack for deterministic frame transmission",
+        "Modbus/TCP uses connectionless communication for low-latency response",
+        "EtherNet/IP uses CIP for both implicit and explicit messaging",
+        "PROFINET is favored in North America due to Siemens’ dominance"
+      ],
+      "correct_options": [
+        "EtherNet/IP supports real-time messaging using UDP multicast",
+        "PROFINET bypasses the IP stack for deterministic frame transmission",
+        "EtherNet/IP uses CIP for both implicit and explicit messaging"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following activities occur in the data-to-insight-to-action cycle described for manufacturing IoT systems?",
+      "options": [
+        "Converting analog machine signals into digitized sensor streams",
+        "Aggregating operational data in cloud-based ERP systems",
+        "Applying analytics to detect production anomalies",
+        "Replacing low-performing workers based on efficiency metrics",
+        "Adjusting machine settings in real-time based on anomaly detection results"
+      ],
+      "correct_options": [
+        "Converting analog machine signals into digitized sensor streams",
+        "Applying analytics to detect production anomalies",
+        "Adjusting machine settings in real-time based on anomaly detection results"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "A manufacturer wants to align shop floor operations with customer order systems. Which integration is required?",
+      "options": [
+        "Horizontal integration across multiple manufacturing sites",
+        "Integration of MES (Manufacturing Execution System) with ERP",
+        "Connecting SCADA with field devices",
+        "Establishing new VLANs across legacy control zones"
+      ],
+      "correct_option": "Integration of MES (Manufacturing Execution System) with ERP",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which characteristics of industrial environments must be considered when designing IIoT deployments?",
+      "options": [
+        "Long equipment life cycles and proprietary protocols",
+        "Deterministic timing and low-latency requirements",
+        "Frequent hardware upgrades to support new standards",
+        "Harsh environmental conditions (dust, temperature, vibrations)",
+        "High tolerance for packet loss in control loops"
+      ],
+      "correct_options": [
+        "Long equipment life cycles and proprietary protocols",
+        "Deterministic timing and low-latency requirements",
+        "Harsh environmental conditions (dust, temperature, vibrations)"
+      ],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "In a smart factory, which element serves as the bridge between operational technology (OT) systems and IT analytics platforms?",
+      "options": ["PLC", "ERP", "SCADA", "Edge gateway"],
+      "correct_option": "Edge gateway",
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following organizational outcomes are enabled by industrial IoT adoption?",
+      "options": [
+        "Shorter product development cycles via digital feedback loops",
+        "Elimination of all manual inspection processes",
+        "Enhanced cross-department coordination through real-time data sharing",
+        "Ability to manage supply chain disruptions through early alerts",
+        "Reduced need for skilled operators in all roles"
+      ],
+      "correct_options": [
+        "Shorter product development cycles via digital feedback loops",
+        "Enhanced cross-department coordination through real-time data sharing",
+        "Ability to manage supply chain disruptions through early alerts"
+      ],
+      "questionType": "multipleChoice"
+    }
+  ]
 }
