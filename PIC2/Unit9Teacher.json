@@ -8,7 +8,7 @@
         "Cloud computing supports automated provisioning and elasticity, unlike ASP models",
         "ASP allows more granular billing mechanisms compared to cloud computing"
       ],
-      "correct_option": "Cloud computing supports automated provisioning and elasticity, unlike ASP models",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -20,11 +20,7 @@
         "High dependency on local resource availability",
         "Application integration via APIs"
       ],
-      "correct_options": [
-        "Automated provisioning and de-provisioning",
-        "Pay-as-you-go billing model",
-        "Application integration via APIs"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -36,11 +32,7 @@
         "Avoidance of CAPEX in early IoT start-ups",
         "Elimination of interoperability challenges across devices"
       ],
-      "correct_options": [
-        "Support for computationally intensive AI services",
-        "Access to development tools regardless of location",
-        "Avoidance of CAPEX in early IoT start-ups"
-      ],
+      "correct_options": [1, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -51,7 +43,7 @@
         "Real-time response requirements in field applications",
         "Lack of storage capacity in centralized data centers"
       ],
-      "correct_option": "Real-time response requirements in field applications",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -62,7 +54,7 @@
         "It combines access to data and services with tools for rapid application development",
         "It prioritizes cost reduction over development capabilities"
       ],
-      "correct_option": "It combines access to data and services with tools for rapid application development",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -74,11 +66,7 @@
         "Semantically diverse data formats",
         "Fixed data schemas enforced by IoT gateways"
       ],
-      "correct_options": [
-        "Data quality and timestamp inconsistencies",
-        "Presence of virtual and physical sensors",
-        "Semantically diverse data formats"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -90,11 +78,7 @@
         "Capacity planning of cloud nodes and infrastructure",
         "Manual provisioning of virtual machines"
       ],
-      "correct_options": [
-        "Load balancing and multitenancy",
-        "Patch and update management",
-        "Capacity planning of cloud nodes and infrastructure"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -105,7 +89,7 @@
         "It provides on-demand virtual servers and elastic storage with minimal setup",
         "It offers a closed system with proprietary APIs"
       ],
-      "correct_option": "It provides on-demand virtual servers and elastic storage with minimal setup",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -117,11 +101,7 @@
         "They provide development environments with integrated analytics",
         "They eliminate the need for cloud-based storage"
       ],
-      "correct_options": [
-        "They offer RESTful and MQTT APIs for device integration",
-        "They include message-oriented middleware for real-time data handling",
-        "They provide development environments with integrated analytics"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -132,7 +112,7 @@
         "Fog computing using batch-processing in a metropolitan data center",
         "Public IoT cloud PaaS with remote access to sensor APIs"
       ],
-      "correct_option": "Edge computing architecture using on-device processing and localized actuation",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -144,11 +124,7 @@
         "Amazon AWS IoT with integrated rules engine and SDKs",
         "Open-source platform like OpenIoT supporting semantic data models"
       ],
-      "correct_options": [
-        "PaaS model like Microsoft Azure IoT",
-        "Amazon AWS IoT with integrated rules engine and SDKs",
-        "Open-source platform like OpenIoT supporting semantic data models"
-      ],
+      "correct_options": [0, 3, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -159,7 +135,7 @@
         "APIs facilitate interoperability and programmatic interaction among services, devices, and data",
         "APIs replace the need for middleware in IoT applications"
       ],
-      "correct_option": "APIs facilitate interoperability and programmatic interaction among services, devices, and data",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -171,11 +147,7 @@
         "Hybrid cloud-edge architecture with selective cloud synchronization",
         "SaaS dashboard for remote device control without any local processing"
       ],
-      "correct_options": [
-        "Edge computing to enable local analytics and reduce dependency on WAN",
-        "Fog computing gateway to provide intermediate processing and protocol translation",
-        "Hybrid cloud-edge architecture with selective cloud synchronization"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -186,7 +158,7 @@
         "Manual data transfer to offline data centers for model training",
         "Fog nodes in dealerships processing data and sending logs quarterly"
       ],
-      "correct_option": "Cloud-based infrastructure using IaaS for scalable compute and storage",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -197,7 +169,7 @@
         "Edge computing is typically standalone or cloud-connected, while fog computing emphasizes coordination across a distributed infrastructure with shared APIs and hierarchical layering",
         "Fog computing is limited to hardware devices that directly sense the environment"
       ],
-      "correct_option": "Edge computing is typically standalone or cloud-connected, while fog computing emphasizes coordination across a distributed infrastructure with shared APIs and hierarchical layering",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -209,11 +181,7 @@
         "The system's reliability requirements and fault tolerance strategy",
         "The ability of individual sensors to interface directly with HTTP services"
       ],
-      "correct_options": [
-        "The number and variability of sensors over time",
-        "The data volume generated and the need for reduction at the source",
-        "The system's reliability requirements and fault tolerance strategy"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -224,7 +192,7 @@
         "Fog nodes managing local control and aggregation, coordinated by a parent cloud",
         "Peer-to-peer sensor mesh with direct inter-node decision making"
       ],
-      "correct_option": "Fog nodes managing local control and aggregation, coordinated by a parent cloud",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -236,11 +204,7 @@
         "Swift provides scalable object storage for VM images and logs",
         "All OpenStack services must be deployed manually without APIs"
       ],
-      "correct_options": [
-        "Modular components like Nova and Glance allow for flexible resource control",
-        "Keystone handles authentication and authorization across services",
-        "Swift provides scalable object storage for VM images and logs"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -251,7 +215,7 @@
         "Enabling local processing and command execution even when offline",
         "Synchronizing non-IP devices directly with HTTP services"
       ],
-      "correct_option": "Enabling local processing and command execution even when offline",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -262,7 +226,7 @@
         "East-west data fusion and localized decision-making at fog nodes",
         "Public-key distribution to enable secure Wi-Fi roaming"
       ],
-      "correct_option": "East-west data fusion and localized decision-making at fog nodes",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -274,11 +238,7 @@
         "Fog systems may include multi-tiered node hierarchies for load distribution",
         "OpenFog relies on serverless function execution but forbids container-based services"
       ],
-      "correct_options": [
-        "Fog architectures include geographically aware routing and mesh reconfiguration",
-        "OpenFog nodes can support accelerators such as GPUs or FPGAs",
-        "Fog systems may include multi-tiered node hierarchies for load distribution"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -289,7 +249,7 @@
         "It enables heterogeneous sensor types to communicate through a unified interface",
         "It synchronizes all sensor readings to a common clock domain"
       ],
-      "correct_option": "It enables heterogeneous sensor types to communicate through a unified interface",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -301,11 +261,7 @@
         "Failover-aware mesh routing in the network layer",
         "Persistent block storage through services like OpenStack Cinder"
       ],
-      "correct_options": [
-        "Support for watchdog nodes to monitor peer failures",
-        "Load balancing across fog nodes based on latency and capacity",
-        "Failover-aware mesh routing in the network layer"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -316,7 +272,7 @@
         "Fog computing only supports the reduce phase of MapReduce to simplify architecture",
         "Fog nodes use HDFS to cache raw sensor data for map operations"
       ],
-      "correct_option": "Fog computing applies MapReduce principles to localize processing and reduce data transfer overhead",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -327,7 +283,7 @@
         "Cloud-only architecture hosted in a remote AWS data center",
         "Multi-tier fog topology with GPGPU-equipped intermediate nodes"
       ],
-      "correct_option": "Cloud-only architecture hosted in a remote AWS data center",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -339,17 +295,13 @@
         "Incorporate east-west communication among fog nodes for load redistribution",
         "Disable edge-side filtering to maximize upstream data fidelity"
       ],
-      "correct_options": [
-        "Allow dynamic scaling of fog nodes based on the number of connected devices",
-        "Use fog nodes with protocol abstraction to support heterogeneous sensor types",
-        "Incorporate east-west communication among fog nodes for load redistribution"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
       "question": "According to latency measurements in the reading, what is a reasonable best-case latency (round-trip) between a US West client and an AWS cloud data center?",
       "options": ["3 ms", "10 ms", "39 ms", "140 ms"],
-      "correct_option": "39 ms",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -361,11 +313,7 @@
         "Requirement for fallback computation paths in failure scenarios",
         "Use of cloud-native container clusters without edge support"
       ],
-      "correct_options": [
-        "High data throughput requiring distributed pre-processing",
-        "Need for east-west analytics among geographically distributed nodes",
-        "Requirement for fallback computation paths in failure scenarios"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -376,13 +324,13 @@
         "Gateway-based fog node supporting BLE, protocol abstraction, and local inference",
         "VM-based edge node requiring constant internet access for function deployment"
       ],
-      "correct_option": "Gateway-based fog node supporting BLE, protocol abstraction, and local inference",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
       "question": "In OpenStack, which component is responsible for launching and managing multiple cloud applications using templates that resemble AWS CloudFormation?",
       "options": ["Keystone", "Heat", "Glance", "Ceilometer"],
-      "correct_option": "Heat",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -394,11 +342,7 @@
         "Collection of metrics for autoscaling decisions",
         "Management of VM state transitions (e.g., MIGRATING → ACTIVE)"
       ],
-      "correct_options": [
-        "Metering of resource usage (CPU, memory, bandwidth)",
-        "Pricing conversion (rating) and initiation of billing",
-        "Collection of metrics for autoscaling decisions"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -409,7 +353,7 @@
         "Peer-to-peer node monitoring and hardware-level security",
         "Dynamic container orchestration from the cloud"
       ],
-      "correct_option": "Peer-to-peer node monitoring and hardware-level security",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -421,11 +365,7 @@
         "East-west traffic monitoring for anomaly detection",
         "VPN termination between fog and cloud"
       ],
-      "correct_options": [
-        "Detection of physical intrusion or tampering",
-        "Resilient routing through mesh reconfiguration",
-        "East-west traffic monitoring for anomaly detection"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -436,7 +376,7 @@
         "Augmenting compute capacity using GPGPUs or FPGAs for vision and ML tasks",
         "Pre-loading firmware updates onto constrained devices"
       ],
-      "correct_option": "Augmenting compute capacity using GPGPUs or FPGAs for vision and ML tasks",
+      "correct_option": [2],
       "questionType": "singleChoice"
     }
   ]

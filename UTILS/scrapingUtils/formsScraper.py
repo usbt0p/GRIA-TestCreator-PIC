@@ -115,10 +115,20 @@ def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
     # add the correct answers to the dict
     for i, q in enumerate(dict_qs["questions"]):
         if q["question"] in corrects:
+            content = corrects[q["question"]]
             if q["questionType"] == "singleChoice":
-                dict_qs["questions"][i]["correct_option"] = corrects[q["question"]][0]
+                # go from the strings to their index
+                if content[0] is not None:
+                    dict_qs["questions"][i]["correct_option"] = [
+                        q["options"].index(content[0])
+                    ]
+                else:
+                    dict_qs["questions"][i]["correct_option"] = None
+
             elif q["questionType"] == "multipleChoice":
-                dict_qs["questions"][i]["correct_options"] = corrects[q["question"]]
+                dict_qs["questions"][i]["correct_options"] = [
+                    q["options"].index(i) for i in content
+                ]
         else:
             print("WARNING::Question mismatch!")
             print(
@@ -187,7 +197,7 @@ if __name__ == "__main__":
     # Example usage
     # url = input("Enter the url: ")
     # name = input("Enter complete file name: ")
-    name = "PIC2/Unit9Teacher.json"
+    name = "PIC2/Unit8Teacher.json"
     file = "UTILS/scrapingUtils/test.html"
     assert name.endswith(".json")
 

@@ -9,11 +9,7 @@
         "Generic APIs for rapid integration",
         "Direct access to ingestion, storage, and processing functions"
       ],
-      "correct_options": [
-        "Greater flexibility in backend customization",
-        "Ability to optimize data models for specific use cases",
-        "Direct access to ingestion, storage, and processing functions"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -25,11 +21,7 @@
         "Time-series databases are a type of relational database optimized for temporal queries",
         "NoSQL databases typically require data partitioning across machines for scalability"
       ],
-      "correct_options": [
-        "Relational databases allow JOINs which reduce redundancy",
-        "NoSQL systems prioritize availability over consistency",
-        "NoSQL databases typically require data partitioning across machines for scalability"
-      ],
+      "correct_options": [1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -41,11 +33,7 @@
         "Naive Bayes uses feature ranking based on prior probabilities",
         "A classifier’s sensitivity measures how well it avoids false positives"
       ],
-      "correct_options": [
-        "Training a classifier requires labeled data",
-        "Overfitting occurs when a model is too specialized to training data",
-        "Naive Bayes uses feature ranking based on prior probabilities"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -56,7 +44,7 @@
         "They struggle with temporal dependencies and conflicting conditions",
         "They are not executable on low-powered gateway devices"
       ],
-      "correct_option": "They struggle with temporal dependencies and conflicting conditions",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -67,7 +55,7 @@
         "Evaluate cost of multiple drone maneuvers to choose optimal path",
         "Send alert to operator on geofence breach"
       ],
-      "correct_option": "Evaluate cost of multiple drone maneuvers to choose optimal path",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -79,11 +67,7 @@
         "Incompatibility with NoSQL principles",
         "Ability to represent time zones and intervals more naturally in query language"
       ],
-      "correct_options": [
-        "Superior performance in timestamp-based queries compared to general RDBMS",
-        "Optimized internal structures for temporal operations and summarization",
-        "Ability to represent time zones and intervals more naturally in query language"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -94,7 +78,7 @@
         "Mean absolute error",
         "Correlation coefficient"
       ],
-      "correct_option": "Standard deviation",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -106,11 +90,7 @@
         "Principal Component Analysis (PCA) reduces dimensionality to highlight variance",
         "Clustering requires labeled data to work effectively"
       ],
-      "correct_options": [
-        "Hierarchical clustering groups items based on distance or similarity in features",
-        "Clustering methods can support anomaly detection by flagging distant items",
-        "Principal Component Analysis (PCA) reduces dimensionality to highlight variance"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -121,7 +101,7 @@
         "It reduces data dimensionality while preserving variance",
         "It transforms discrete variables into continuous ones"
       ],
-      "correct_option": "It reduces data dimensionality while preserving variance",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -133,11 +113,7 @@
         "Overfitting means the model generalizes well to unseen data",
         "Accuracy and sensitivity are both used to assess classification performance"
       ],
-      "correct_options": [
-        "It requires a labeled dataset for model training",
-        "Naive Bayes, SVM, and Random Forests are examples of supervised learning algorithms",
-        "Accuracy and sensitivity are both used to assess classification performance"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -149,12 +125,7 @@
         "ROC curves are used to visualize database performance in backend storage systems",
         "Classifiers in production should be monitored for drift and changing input patterns"
       ],
-      "correct_options": [
-        "High accuracy with low sensitivity can still be problematic in IoT failure detection",
-        "A model that performs well on training data but poorly on real-world data is overfitted",
-        "Overfitting often occurs due to excessive model complexity relative to training data",
-        "Classifiers in production should be monitored for drift and changing input patterns"
-      ],
+      "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -165,7 +136,7 @@
         "Supervised classification",
         "Anomaly detection"
       ],
-      "correct_option": "Supervised classification",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -177,11 +148,7 @@
         "Implementing fallback logic using rule-based systems",
         "Replacing all learned models with hard-coded thresholds after deployment"
       ],
-      "correct_options": [
-        "Periodic retraining with new labeled data",
-        "Monitoring for concept drift and retraining if needed",
-        "Implementing fallback logic using rule-based systems"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -193,11 +160,7 @@
         "Implement stream analytics for alerting on real-time drought risk",
         "Avoid relational databases due to lack of JOIN support"
       ],
-      "correct_options": [
-        "Use a time-series database to store sensor readings with timestamps",
-        "Use a Bloom filter to reduce transmission of unchanged data values",
-        "Implement stream analytics for alerting on real-time drought risk"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -208,7 +171,7 @@
         "Rules engine with location-aware logic",
         "SQL-based relational backend"
       ],
-      "correct_option": "Rules engine with location-aware logic",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -220,11 +183,7 @@
         "Bloom filter to compress real-time data streams",
         "Time-series database for historical trend analysis"
       ],
-      "correct_options": [
-        "Stream analytics with sliding-window rules for anomaly detection",
-        "A supervised learning model trained on labeled failure data",
-        "Time-series database for historical trend analysis"
-      ],
+      "correct_options": [0, 1, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -235,7 +194,7 @@
         "Cloud-based supervised classification models",
         "SQL-based long-term storage with predictive modeling"
       ],
-      "correct_option": "Edge computing using Kalman filters",
+      "correct_option": [0],
       "questionType": "singleChoice"
     },
     {
@@ -247,12 +206,7 @@
         "Descriptive statistics to summarize daily patterns",
         "Message brokers for decoupled, scalable data ingestion"
       ],
-      "correct_options": [
-        "Stream analytics for event-driven responses",
-        "Batch processing for pattern detection and trend forecasting",
-        "Descriptive statistics to summarize daily patterns",
-        "Message brokers for decoupled, scalable data ingestion"
-      ],
+      "correct_options": [0, 1, 3, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -264,11 +218,7 @@
         "IoT data streams are often dynamic and time-sensitive",
         "IoT data can be crowd-sourced from user devices"
       ],
-      "correct_options": [
-        "IoT data are often noisy, incomplete, and location-dependent",
-        "IoT data streams are often dynamic and time-sensitive",
-        "IoT data can be crowd-sourced from user devices"
-      ],
+      "correct_options": [1, 3, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -279,7 +229,7 @@
         "Limited storage in sensor devices",
         "Performing deep learning on the edge"
       ],
-      "correct_option": "Normalizing multimodal data formats and semantics",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -291,18 +241,13 @@
         "Stateless operators with disk-based checkpointing",
         "Ability to parallelize query execution and scale at runtime"
       ],
-      "correct_options": [
-        "Handling distributed streams with out-of-order arrivals",
-        "Running continuous queries with bounded memory",
-        "Stateless operators with disk-based checkpointing",
-        "Ability to parallelize query execution and scale at runtime"
-      ],
+      "correct_options": [0, 2, 3, 4],
       "questionType": "multipleChoice"
     },
     {
       "question": "You are designing a predictive maintenance system for wind turbines, which requires high-frequency vibration monitoring, out-of-order correction, and incremental model refinement. What platform is *best suited* to deploy this?",
       "options": ["Apache Hadoop", "Apache Flink", "Apache Storm", "HDFS"],
-      "correct_option": "Apache Flink",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -314,11 +259,7 @@
         "Selecting relevant data columns and removing outliers",
         "Adjusting regularization parameters to reduce overfitting"
       ],
-      "correct_options": [
-        "Choosing between decision trees and SVMs",
-        "Performing cross-validation to evaluate generalization",
-        "Adjusting regularization parameters to reduce overfitting"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -330,12 +271,7 @@
         "Apache Storm to manage relational joins across mobility streams",
         "Spark Streaming for micro-batched event summarization"
       ],
-      "correct_options": [
-        "Kafka to buffer high-frequency event streams",
-        "HDFS to store long-term traffic history for batch analytics",
-        "Apache Flink for stateful stream processing with low latency",
-        "Spark Streaming for micro-batched event summarization"
-      ],
+      "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -346,7 +282,7 @@
         "Flink supports stateful, event-time-aware, low-latency streaming with exactly-once guarantees",
         "Flink replaces the need for distributed file systems like HDFS"
       ],
-      "correct_option": "Flink supports stateful, event-time-aware, low-latency streaming with exactly-once guarantees",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -358,17 +294,13 @@
         "Kafka decouples producers and consumers, enabling scalable data pipelines",
         "Kafka guarantees total order of messages globally across partitions"
       ],
-      "correct_options": [
-        "Kafka stores messages durably across replicated brokers for fault tolerance",
-        "Kafka supports event-at-a-time processing with millisecond-level latency",
-        "Kafka decouples producers and consumers, enabling scalable data pipelines"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
       "question": "Which of the following systems is most suitable for **real-time distributed analytics** in an industrial IoT setting that requires fault tolerance, message replication, and flexible integration with downstream analytics platforms?",
       "options": ["HDFS", "Apache Spark", "Apache Kafka", "Apache Storm"],
-      "correct_option": "Apache Kafka",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -380,12 +312,7 @@
         "Storm for scalable batch ETL processing",
         "HDFS for storing full sensor history and retraining data"
       ],
-      "correct_options": [
-        "Kafka Streams for event handling and lightweight transformation",
-        "Spark for batch model training using historical datasets",
-        "Flink for detecting stateful anomalies in vibration data",
-        "HDFS for storing full sensor history and retraining data"
-      ],
+      "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -397,11 +324,7 @@
         "Fusing multimodal sensor and contextual data in real time",
         "Performing ad hoc OLAP queries on streaming data"
       ],
-      "correct_options": [
-        "Ensuring consistent schema across high-frequency sensor streams",
-        "Executing complex models directly on constrained edge devices",
-        "Fusing multimodal sensor and contextual data in real time"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -412,7 +335,7 @@
         "Train a deep neural network with high accuracy and offload predictions to cloud",
         "Execute SQL queries on embedded time-series data"
       ],
-      "correct_option": "Use an interpretable tree-based model and optimize it for edge inference",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -423,7 +346,7 @@
         "Reinforcement learning",
         "Deep learning"
       ],
-      "correct_option": "Reinforcement learning",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -434,7 +357,7 @@
         "Naive Bayes",
         "Logistic regression"
       ],
-      "correct_option": "K-means clustering",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -446,11 +369,7 @@
         "Real-time inference latency within acceptable bounds",
         "Cross-validation accuracy above 95% on training data"
       ],
-      "correct_options": [
-        "Low false negative rate to avoid missed alarms",
-        "Model interpretability for medical certification and auditing",
-        "Real-time inference latency within acceptable bounds"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -461,7 +380,7 @@
         "Convert the model into SQL logic for relational execution",
         "Use a deep convolutional network trained on cloud GPU"
       ],
-      "correct_option": "Compress the model using pruning or quantization",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -472,7 +391,7 @@
         "Federated learning using mobile clients",
         "Manual rule updates by technicians"
       ],
-      "correct_option": "Online learning using lightweight incremental models",
+      "correct_option": [0],
       "questionType": "singleChoice"
     },
     {
@@ -484,11 +403,7 @@
         "Replacing ML models with hard-coded thresholds",
         "Pruning unused nodes in neural networks"
       ],
-      "correct_options": [
-        "Model quantization (e.g., 32-bit to 8-bit)",
-        "Knowledge distillation from complex teacher models",
-        "Pruning unused nodes in neural networks"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -500,11 +415,7 @@
         "Localized querying for temporal monitoring",
         "Long-term storage and offline archival"
       ],
-      "correct_options": [
-        "Sensor data production and real-time transfer",
-        "Aggregation and in-network fusion",
-        "Localized querying for temporal monitoring"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -516,18 +427,13 @@
         "Apply fusion techniques to reduce redundant data transmission",
         "Perform local querying and only transmit alerts or aggregated summaries"
       ],
-      "correct_options": [
-        "Use edge computing to combine sensing and processing",
-        "Store data in an in-memory NoSQL database on the edge",
-        "Apply fusion techniques to reduce redundant data transmission",
-        "Perform local querying and only transmit alerts or aggregated summaries"
-      ],
+      "correct_options": [0, 1, 3, 4],
       "questionType": "multipleChoice"
     },
     {
       "question": "What type of IoT data source is best characterized by bidirectional communication, format flexibility, and self-tuning capabilities?",
       "options": ["Passive", "Active", "Dynamic", "Stateless"],
-      "correct_option": "Dynamic",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -539,12 +445,7 @@
         "High throughput streaming support with millisecond response guarantees",
         "Strict ACID enforcement in highly dynamic, distributed data flows"
       ],
-      "correct_options": [
-        "Rigid schema structure incompatible with sensor data heterogeneity",
-        "Dependence on fixed data sources with predictable update patterns",
-        "Transparency requirements that hinder location-aware applications",
-        "Strict ACID enforcement in highly dynamic, distributed data flows"
-      ],
+      "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -556,10 +457,7 @@
         "Production → Edge Analysis → Local Archiving",
         "Production → Fusion → Cloud Storage → Historical Trend Analysis"
       ],
-      "correct_options": [
-        "Production → Aggregation → Preprocessing → Storage → Analysis",
-        "Production → Fusion → Cloud Storage → Historical Trend Analysis"
-      ],
+      "correct_options": [0, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -570,7 +468,7 @@
         "In-memory OLAP cube processing",
         "Microservice-based REST APIs backed by SQL"
       ],
-      "correct_option": "Stream processing using Apache Storm or Samza",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -582,17 +480,13 @@
         "Stateless operation with zero memory usage",
         "Flexibility to replace or extend processing engines"
       ],
-      "correct_options": [
-        "Support for both batch and stream data workloads",
-        "Inclusion of libraries for ML, graph, and interactive querying",
-        "Flexibility to replace or extend processing engines"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
       "question": "You need to cache real-time telemetry data for a smart manufacturing dashboard. Reads must be extremely fast and data is ephemeral. What is the most appropriate storage solution?",
       "options": ["Redis", "HDFS", "Cassandra", "PostgreSQL"],
-      "correct_option": "Redis",
+      "correct_option": [0],
       "questionType": "singleChoice"
     },
     {
@@ -604,11 +498,7 @@
         "They allow devices and solutions to be automatically matched",
         "They force all data sources into a single canonical format"
       ],
-      "correct_options": [
-        "They support consistent interpretation of heterogeneous device data",
-        "They help enable semantic interoperability between platforms",
-        "They allow devices and solutions to be automatically matched"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -619,7 +509,7 @@
         "To describe sensors, observations, actuators, and their relationships semantically",
         "To manage streaming ingestion rates in real time"
       ],
-      "correct_option": "To describe sensors, observations, actuators, and their relationships semantically",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -631,17 +521,13 @@
         "Homogeneous data types across all devices",
         "Combination of structured, unstructured, and semi-structured data"
       ],
-      "correct_options": [
-        "Continuous high-volume data generation from distributed smart objects",
-        "The need for low-latency, real-time data processing at the edge",
-        "Combination of structured, unstructured, and semi-structured data"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
       "question": "You are building a monitoring system for a fleet of trucks. The system should alert the driver if the engine is overheating, based on current sensor readings. Which type of analytics is primarily involved?",
       "options": ["Diagnostic", "Predictive", "Descriptive", "Prescriptive"],
-      "correct_option": "Descriptive",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -653,11 +539,7 @@
         "JSON parsing in document stores",
         "K-means clustering of log files"
       ],
-      "correct_options": [
-        "Convolutional neural networks (CNNs)",
-        "Natural Language Processing (NLP)",
-        "JSON parsing in document stores"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -669,11 +551,7 @@
         "Unstructured data often requires machine learning for analysis",
         "Structured data cannot be used for business decisions"
       ],
-      "correct_options": [
-        "Structured data is easier to store and query using RDBMS",
-        "Unstructured data includes text, video, and images",
-        "Unstructured data often requires machine learning for analysis"
-      ],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -685,11 +563,7 @@
         "Identifying anomalies in pressure data without labeled failure cases",
         "Mapping sensor values to categorical device states (e.g., “Normal” vs. “Fault”)"
       ],
-      "correct_options": [
-        "Classifying environmental conditions based on labeled sensor data",
-        "Predicting equipment failure based on historical sensor logs",
-        "Mapping sensor values to categorical device states (e.g., “Normal” vs. “Fault”)"
-      ],
+      "correct_options": [0, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -700,7 +574,7 @@
         "Feedforward neural network",
         "Naive Bayes"
       ],
-      "correct_option": "Feedforward neural network",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -711,13 +585,13 @@
         "Dimensionality reduction",
         "Unsupervised learning"
       ],
-      "correct_option": "Reinforcement learning",
+      "correct_option": [0],
       "questionType": "singleChoice"
     },
     {
       "question": "You need to store high-frequency telemetry from IoT devices with flexible schemas and support for horizontal scalability. Which storage solution best meets these requirements?",
       "options": ["MySQL", "HDFS", "MongoDB", "PostgreSQL"],
-      "correct_option": "MongoDB",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -728,7 +602,7 @@
         "Long-term storage layer",
         "Visualization layer"
       ],
-      "correct_option": "Preprocessing and transformation stage",
+      "correct_option": [1],
       "questionType": "singleChoice"
     },
     {
@@ -740,11 +614,7 @@
         "Scalability to handle varying data ingestion rates",
         "Real-time dashboards tightly integrated with data ingestion logic"
       ],
-      "correct_options": [
-        "Modular design to enable replacement of processing components",
-        "Asynchronous communication between pipeline stages",
-        "Scalability to handle varying data ingestion rates"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -755,7 +625,7 @@
         "Data is primarily used for control and anomaly detection, not optimization and prediction",
         "Bandwidth constraints make all analytics infeasible"
       ],
-      "correct_option": "Data is primarily used for control and anomaly detection, not optimization and prediction",
+      "correct_option": [2],
       "questionType": "singleChoice"
     },
     {
@@ -767,11 +637,7 @@
         "Real-time responsiveness is often required for decision-making",
         "All data can be processed in batch once transmission is complete"
       ],
-      "correct_options": [
-        "Data may arrive out of order or with missing timestamps",
-        "IoT streams may be noisy, incomplete, or semantically diverse",
-        "Real-time responsiveness is often required for decision-making"
-      ],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -783,11 +649,7 @@
         "Fixed dataflow structures that cannot be composed arbitrarily",
         "High-throughput, distributed, stateful stream computation"
       ],
-      "correct_options": [
-        "Native support for event-time and out-of-order data",
-        "Superior performance for low-latency stream ETL",
-        "High-throughput, distributed, stateful stream computation"
-      ],
+      "correct_options": [0, 1, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -799,11 +661,7 @@
         "Reducing ingestion rates through compression",
         "Enabling communication across diverse device protocols"
       ],
-      "correct_options": [
-        "Structuring heterogeneous data streams into unified formats",
-        "Managing schema evolution and semantic alignment",
-        "Enabling communication across diverse device protocols"
-      ],
+      "correct_options": [1, 2, 4],
       "questionType": "multipleChoice"
     },
     {
@@ -815,7 +673,7 @@
         "HDFS",
         "MongoDB"
       ],
-      "correct_options": ["Apache Storm", "Apache Flink"],
+      "correct_options": [0, 2],
       "questionType": "multipleChoice"
     }
   ]
