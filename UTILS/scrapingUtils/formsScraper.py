@@ -64,12 +64,16 @@ def get_form_data(url: str = None, use_file: str = "") -> tuple[list, list, list
     # the code is the default one for correct div
     correct_answers = get_correct_answers(parser, "D42QGf")
 
+    feedback = get_feedback(parser, "sIQxvc")
+
     assert len(questions) == len(answers)
 
-    return questions, answers, question_type, correct_answers
+    return questions, answers, question_type, correct_answers, feedback
 
 
-def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
+def format_into_json(
+    questions, answers, type, corrects, feedback=None, filepath=None
+) -> dict:
     """Format the data into a json file for the quiz app.
     For format of the json file, refer to the README.
 
@@ -135,6 +139,14 @@ def format_into_json(questions, answers, type, corrects, filepath=None) -> dict:
                 "This means answer key and question key are not equivalent due to something. Fill it manually"
             )
 
+    # add the feedback to the dict
+    if feedback:
+        for i, q in enumerate(dict_qs["questions"]):
+            if q["question"] in feedback:
+                dict_qs["questions"][i]["feedback"] = feedback[q["question"]]
+            else:
+                dict_qs["questions"][i]["feedback"] = "No feedback available"
+
     if filepath:
         with open(filepath, "w") as file:
             json.dump(dict_qs, file, indent=4, ensure_ascii=False)
@@ -163,6 +175,7 @@ def get_correct_answers(parser, class_id):
     """
 
     correct_answers_divs = {}
+
     divs = parser.find_all(
         "div", class_="OxAavc"
     )  # hardcoded code for the question divs
@@ -172,11 +185,11 @@ def get_correct_answers(parser, class_id):
         qname = div.find(
             "span", class_="M7eMe"
         )  # name of the question to associate it with the answer
-        div = div.find(
+        div_correct = div.find(
             "div", class_=class_id
         )  # D42QGf is the class of the div containing the correct answers
-        if div:
-            answerbox = div.find_all("span", dir="auto")
+        if div_correct:
+            answerbox = div_correct.find_all("span", dir="auto")
             to_add = [" ".join(span.text.split()) for span in answerbox]
             correct_answers_divs[" ".join(qname.text.split())] = to_add
         else:
@@ -192,20 +205,58 @@ def get_correct_answers(parser, class_id):
     return correct_answers_divs
 
 
+def get_feedback(parser, class_id):
+    """Get the feedback for each question from the google form.
+    The feedback is in a div with the class 'D42QGf' and the question name
+    is in a span with the class 'M7eMe'.
+
+    Parameters
+    ----------
+    parser : BeautifulSoup
+            The parser to use.
+    class_id : str
+            The class id of the div containing the feedback.
+    Returns
+    -------
+    dict
+            The dictionary of feedbacks.
+    """
+
+    feedback_divs = {}
+
+    divs = parser.find_all(
+        "div", class_="OxAavc"
+    )  # hardcoded code for the question divs
+    for div in divs:
+        qname = div.find(
+            "span", class_="M7eMe"
+        )  # name of the question to associate it with the answer
+        div_feedback = div.find(
+            "div", class_=class_id
+        )  # the class of the div containing the feedback
+        if div_feedback:
+            feedback_divs[" ".join(qname.text.split())] = " ".join(
+                div_feedback.text.split()
+            )
+        else:
+            feedback_divs[" ".join(qname.text.split())] = "No feedback available"
+    return feedback_divs
+
+
 if __name__ == "__main__":
 
     # Example usage
     # url = input("Enter the url: ")
     # name = input("Enter complete file name: ")
-    name = "PIC2/Unit8Teacher.json"
+    name = "PIC2/Unit9Teacher.json"
     file = "UTILS/scrapingUtils/test.html"
     assert name.endswith(".json")
 
     # q, a, t = get_data(url=url, use_file='test_answers.html')
-    q, a, t, c = get_form_data(
+    q, a, t, c, f = get_form_data(
         use_file=file
     )  # questions, answers, question type, correct answers
-    json_output = format_into_json(q, a, t, c, filepath=name)
+    json_output = format_into_json(q, a, t, c, f, filepath=name)
 
     # Example usage of get_correct_answers
     # with open(file, 'r') as file:
