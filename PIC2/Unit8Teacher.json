@@ -3,11 +3,11 @@
     {
       "question": "Which of the following are advantages of using a PaaS-based IoT platform instead of a SaaS-based solution?",
       "options": [
-        "Greater flexibility in backend customization",
-        "Minimal programming skills required",
-        "Ability to optimize data models for specific use cases",
-        "Generic APIs for rapid integration",
-        "Direct access to ingestion, storage, and processing functions"
+        "Greater flexibility in backend customization.",
+        "Minimal programming skills required.",
+        "Ability to optimize data models for specific use cases.",
+        "Generic APIs for rapid integration.",
+        "Direct access to ingestion, storage, and processing functions."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -16,11 +16,11 @@
     {
       "question": "Which statements accurately reflect trade-offs between relational and NoSQL databases in IoT contexts?",
       "options": [
-        "NoSQL databases provide better ACID compliance",
-        "Relational databases allow JOINs which reduce redundancy",
-        "NoSQL systems prioritize availability over consistency",
-        "Time-series databases are a type of relational database optimized for temporal queries",
-        "NoSQL databases typically require data partitioning across machines for scalability"
+        "NoSQL databases provide better ACID compliance.",
+        "Relational databases allow JOINs which reduce redundancy.",
+        "NoSQL systems prioritize availability over consistency.",
+        "Time-series databases are a type of relational database optimized for temporal queries.",
+        "NoSQL databases typically require data partitioning across machines for scalability."
       ],
       "correct_options": [1, 2, 4],
       "questionType": "multipleChoice",
@@ -29,11 +29,11 @@
     {
       "question": "In supervised learning for IoT analytics, which of the following statements are true?",
       "options": [
-        "Training a classifier requires labeled data",
-        "Random forests are less interpretable than support vector machines",
-        "Overfitting occurs when a model is too specialized to training data",
-        "Naive Bayes uses feature ranking based on prior probabilities",
-        "A classifier’s sensitivity measures how well it avoids false positives"
+        "Training a classifier requires labeled data.",
+        "Random forests are less interpretable than support vector machines.",
+        "Overfitting occurs when a model is too specialized to training data.",
+        "Naive Bayes uses feature ranking based on prior probabilities.",
+        "A classifier’s sensitivity measures how well it avoids false positives."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -42,10 +42,10 @@
     {
       "question": "What is the main limitation of rule-based systems in IoT stream analytics?",
       "options": [
-        "They cannot process high-frequency data",
-        "They require retraining like supervised models",
-        "They struggle with temporal dependencies and conflicting conditions",
-        "They are not executable on low-powered gateway devices"
+        "They cannot process high-frequency data.",
+        "They require retraining like supervised models.",
+        "They struggle with temporal dependencies and conflicting conditions.",
+        "They are not executable on low-powered gateway devices."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -54,10 +54,10 @@
     {
       "question": "Which of the following best illustrates an action selection strategy as opposed to a rules-based strategy?",
       "options": [
-        "IF temperature > 70°C THEN activate cooling",
-        "Return drone to base when battery < 10%",
-        "Evaluate cost of multiple drone maneuvers to choose optimal path",
-        "Send alert to operator on geofence breach"
+        "IF temperature > 70°C THEN activate cooling.",
+        "Return drone to base when battery < 10%.",
+        "Evaluate cost of multiple drone maneuvers to choose optimal path.",
+        "Send alert to operator on geofence breach."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -66,11 +66,11 @@
     {
       "question": "Which of the following are characteristics or benefits of using time-series databases in IoT backends?",
       "options": [
-        "Superior performance in timestamp-based queries compared to general RDBMS",
-        "Better schema enforcement to ensure data consistency",
-        "Optimized internal structures for temporal operations and summarization",
-        "Incompatibility with NoSQL principles",
-        "Ability to represent time zones and intervals more naturally in query language"
+        "Superior performance in timestamp-based queries compared to general RDBMS.",
+        "Better schema enforcement to ensure data consistency.",
+        "Optimized internal structures for temporal operations and summarization.",
+        "Incompatibility with NoSQL principles.",
+        "Ability to represent time zones and intervals more naturally in query language."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -79,10 +79,10 @@
     {
       "question": "Which metric is used to describe the spread of values around the mean in a data distribution?",
       "options": [
-        "Mode",
-        "Standard deviation",
-        "Mean absolute error",
-        "Correlation coefficient"
+        "Mode.",
+        "Standard deviation.",
+        "Mean absolute error.",
+        "Correlation coefficient."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -91,11 +91,11 @@
     {
       "question": "Which of the following statements about anomaly detection and clustering in IoT are correct?",
       "options": [
-        "Hierarchical clustering groups items based on distance or similarity in features",
-        "K-means clustering determines the number of clusters dynamically based on data",
-        "Clustering methods can support anomaly detection by flagging distant items",
-        "Principal Component Analysis (PCA) reduces dimensionality to highlight variance",
-        "Clustering requires labeled data to work effectively"
+        "Hierarchical clustering groups items based on distance or similarity in features.",
+        "K-means clustering determines the number of clusters dynamically based on data.",
+        "Clustering methods can support anomaly detection by flagging distant items.",
+        "Principal Component Analysis (PCA) reduces dimensionality to highlight variance.",
+        "Clustering requires labeled data to work effectively."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -104,10 +104,10 @@
     {
       "question": "What is the main advantage of using PCA (Principal Component Analysis) in IoT data analysis?",
       "options": [
-        "It labels data points based on learned class boundaries",
-        "It helps identify the most frequently repeated values",
-        "It reduces data dimensionality while preserving variance",
-        "It transforms discrete variables into continuous ones"
+        "It labels data points based on learned class boundaries.",
+        "It helps identify the most frequently repeated values.",
+        "It reduces data dimensionality while preserving variance.",
+        "It transforms discrete variables into continuous ones."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -116,11 +116,11 @@
     {
       "question": "Which of the following statements about supervised learning in IoT are true?",
       "options": [
-        "It requires a labeled dataset for model training",
-        "The model must be continuously retrained after each new input",
-        "Naive Bayes, SVM, and Random Forests are examples of supervised learning algorithms",
-        "Overfitting means the model generalizes well to unseen data",
-        "Accuracy and sensitivity are both used to assess classification performance"
+        "It requires a labeled dataset for model training.",
+        "The model must be continuously retrained after each new input.",
+        "Naive Bayes, SVM, and Random Forests are examples of supervised learning algorithms.",
+        "Overfitting means the model generalizes well to unseen data.",
+        "Accuracy and sensitivity are both used to assess classification performance."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -129,11 +129,11 @@
     {
       "question": "Which of the following statements about classifier performance and overfitting are correct?",
       "options": [
-        "High accuracy with low sensitivity can still be problematic in IoT failure detection",
-        "A model that performs well on training data but poorly on real-world data is overfitted",
-        "Overfitting often occurs due to excessive model complexity relative to training data",
-        "ROC curves are used to visualize database performance in backend storage systems",
-        "Classifiers in production should be monitored for drift and changing input patterns"
+        "High accuracy with low sensitivity can still be problematic in IoT failure detection.",
+        "A model that performs well on training data but poorly on real-world data is overfitted.",
+        "Overfitting often occurs due to excessive model complexity relative to training data.",
+        "ROC curves are used to visualize database performance in backend storage systems.",
+        "Classifiers in production should be monitored for drift and changing input patterns."
       ],
       "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice",
@@ -142,10 +142,10 @@
     {
       "question": "Which method is best suited for assigning a new IoT device instance to a predefined class based on feature values?",
       "options": [
-        "Clustering",
-        "PCA",
-        "Supervised classification",
-        "Anomaly detection"
+        "Clustering.",
+        "PCA.",
+        "Supervised classification.",
+        "Anomaly detection."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -154,11 +154,11 @@
     {
       "question": "In an IoT deployment using supervised learning, which strategies help maintain classifier robustness over time?",
       "options": [
-        "Periodic retraining with new labeled data",
-        "Using PCA to replace all supervised models",
-        "Monitoring for concept drift and retraining if needed",
-        "Implementing fallback logic using rule-based systems",
-        "Replacing all learned models with hard-coded thresholds after deployment"
+        "Periodic retraining with new labeled data.",
+        "Using PCA to replace all supervised models.",
+        "Monitoring for concept drift and retraining if needed.",
+        "Implementing fallback logic using rule-based systems.",
+        "Replacing all learned models with hard-coded thresholds after deployment."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -167,11 +167,11 @@
     {
       "question": "You are tasked with designing a backend system for a smart agriculture deployment monitoring soil moisture and temperature across hundreds of fields. Each sensor reports data every 10 seconds. The system must support long-term analysis and enable future predictive models.Which of the following design decisions are appropriate?",
       "options": [
-        "Use a time-series database to store sensor readings with timestamps",
-        "Use a Bloom filter to reduce transmission of unchanged data values",
-        "Store raw data as text files to avoid database overhead",
-        "Implement stream analytics for alerting on real-time drought risk",
-        "Avoid relational databases due to lack of JOIN support"
+        "Use a time-series database to store sensor readings with timestamps.",
+        "Use a Bloom filter to reduce transmission of unchanged data values.",
+        "Store raw data as text files to avoid database overhead.",
+        "Implement stream analytics for alerting on real-time drought risk.",
+        "Avoid relational databases due to lack of JOIN support."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -180,10 +180,10 @@
     {
       "question": "A company is deploying IoT sensors in trucks to monitor engine temperature and geolocation in real time. Alerts must be issued if overheating is detected outside of predefined geofences. What architectural component is most critical for supporting such functionality?",
       "options": [
-        "Kalman filter",
-        "Bloom filter",
-        "Rules engine with location-aware logic",
-        "SQL-based relational backend"
+        "Kalman filter.",
+        "Bloom filter.",
+        "Rules engine with location-aware logic.",
+        "SQL-based relational backend."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -192,11 +192,11 @@
     {
       "question": "You're building an IoT-based predictive maintenance system for factory machines. Sensor data includes vibration, temperature, and voltage levels. The system must detect anomalies in real time and schedule maintenance if patterns suggest impending failure. What approaches or technologies would you include?",
       "options": [
-        "Stream analytics with sliding-window rules for anomaly detection",
-        "A supervised learning model trained on labeled failure data",
-        "Descriptive statistics to summarize the vibration signal frequency",
-        "Bloom filter to compress real-time data streams",
-        "Time-series database for historical trend analysis"
+        "Stream analytics with sliding-window rules for anomaly detection.",
+        "A supervised learning model trained on labeled failure data.",
+        "Descriptive statistics to summarize the vibration signal frequency.",
+        "Bloom filter to compress real-time data streams.",
+        "Time-series database for historical trend analysis."
       ],
       "correct_options": [0, 1, 4],
       "questionType": "multipleChoice",
@@ -205,10 +205,10 @@
     {
       "question": "A drone fleet uses multiple sensors to navigate, detect obstacles, and avoid crashes. Processing must be immediate to enable evasive maneuvers. What processing approach is most appropriate?",
       "options": [
-        "Edge computing using Kalman filters",
-        "Fog computing with batch analytics",
-        "Cloud-based supervised classification models",
-        "SQL-based long-term storage with predictive modeling"
+        "Edge computing using Kalman filters.",
+        "Fog computing with batch analytics.",
+        "Cloud-based supervised classification models.",
+        "SQL-based long-term storage with predictive modeling."
       ],
       "correct_option": [0],
       "questionType": "singleChoice",
@@ -217,11 +217,11 @@
     {
       "question": "A smart city initiative includes sensors in traffic lights, pollution monitors, and public transport vehicles. The system must support real-time actions, mid-term planning, and long-term strategic decisions. Which analytics and data architecture components should be integrated?",
       "options": [
-        "Stream analytics for event-driven responses",
-        "Batch processing for pattern detection and trend forecasting",
-        "Supervised learning classifiers deployed in real-time edge devices",
-        "Descriptive statistics to summarize daily patterns",
-        "Message brokers for decoupled, scalable data ingestion"
+        "Stream analytics for event-driven responses.",
+        "Batch processing for pattern detection and trend forecasting.",
+        "Supervised learning classifiers deployed in real-time edge devices.",
+        "Descriptive statistics to summarize daily patterns.",
+        "Message brokers for decoupled, scalable data ingestion."
       ],
       "correct_options": [0, 1, 3, 4],
       "questionType": "multipleChoice",
@@ -230,11 +230,11 @@
     {
       "question": "Which of the following characteristics differentiate IoT data from conventional big data?",
       "options": [
-        "IoT data are always labeled for supervised learning tasks",
-        "IoT data are often noisy, incomplete, and location-dependent",
-        "IoT data are typically stored in traditional transactional databases",
-        "IoT data streams are often dynamic and time-sensitive",
-        "IoT data can be crowd-sourced from user devices"
+        "IoT data are always labeled for supervised learning tasks.",
+        "IoT data are often noisy, incomplete, and location-dependent.",
+        "IoT data are typically stored in traditional transactional databases.",
+        "IoT data streams are often dynamic and time-sensitive.",
+        "IoT data can be crowd-sourced from user devices."
       ],
       "correct_options": [1, 3, 4],
       "questionType": "multipleChoice",
@@ -243,10 +243,10 @@
     {
       "question": "An environmental monitoring system needs to combine air quality data from mobile sensors and weather APIs. What is the most critical challenge during the data preparation phase?",
       "options": [
-        "Lack of model explainability",
-        "Normalizing multimodal data formats and semantics",
-        "Limited storage in sensor devices",
-        "Performing deep learning on the edge"
+        "Lack of model explainability.",
+        "Normalizing multimodal data formats and semantics.",
+        "Limited storage in sensor devices.",
+        "Performing deep learning on the edge."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -255,11 +255,11 @@
     {
       "question": "Which of the following *streaming platform capabilities* are essential for supporting real-time IoT analytics?",
       "options": [
-        "Handling distributed streams with out-of-order arrivals",
-        "Supporting batch ingestion with full ETL pipelines",
-        "Running continuous queries with bounded memory",
-        "Stateless operators with disk-based checkpointing",
-        "Ability to parallelize query execution and scale at runtime"
+        "Handling distributed streams with out-of-order arrivals.",
+        "Supporting batch ingestion with full ETL pipelines.",
+        "Running continuous queries with bounded memory.",
+        "Stateless operators with disk-based checkpointing.",
+        "Ability to parallelize query execution and scale at runtime."
       ],
       "correct_options": [0, 2, 3, 4],
       "questionType": "multipleChoice",
@@ -275,11 +275,11 @@
     {
       "question": "You are building a smart grid forecasting system. The CRISP-DM modeling phase includes selecting algorithms and tuning them. Which of the following actions would logically *belong in this phase*?",
       "options": [
-        "Choosing between decision trees and SVMs",
-        "Determining if weather data and load data need time alignment",
-        "Performing cross-validation to evaluate generalization",
-        "Selecting relevant data columns and removing outliers",
-        "Adjusting regularization parameters to reduce overfitting"
+        "Choosing between decision trees and SVMs.",
+        "Determining if weather data and load data need time alignment.",
+        "Performing cross-validation to evaluate generalization.",
+        "Selecting relevant data columns and removing outliers.",
+        "Adjusting regularization parameters to reduce overfitting."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -288,11 +288,11 @@
     {
       "question": "You are designing a city-wide smart transportation system that integrates traffic sensors, vehicle telemetry, and pedestrian movement data. The system must support real-time rerouting decisions, detect congestion, and support long-term mobility pattern analysis. Which combination of technologies and architectures is appropriate?",
       "options": [
-        "Kafka to buffer high-frequency event streams",
-        "HDFS to store long-term traffic history for batch analytics",
-        "Apache Flink for stateful stream processing with low latency",
-        "Apache Storm to manage relational joins across mobility streams",
-        "Spark Streaming for micro-batched event summarization"
+        "Kafka to buffer high-frequency event streams.",
+        "HDFS to store long-term traffic history for batch analytics.",
+        "Apache Flink for stateful stream processing with low latency.",
+        "Apache Storm to manage relational joins across mobility streams.",
+        "Spark Streaming for micro-batched event summarization."
       ],
       "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice",
@@ -301,10 +301,10 @@
     {
       "question": "What is a major *advantage* of Apache Flink over Apache Spark Streaming in real-time IoT deployments?",
       "options": [
-        "Flink handles streaming using stateless micro-batching",
-        "Flink has a native graph engine for topological queries",
-        "Flink supports stateful, event-time-aware, low-latency streaming with exactly-once guarantees",
-        "Flink replaces the need for distributed file systems like HDFS"
+        "Flink handles streaming using stateless micro-batching.",
+        "Flink has a native graph engine for topological queries.",
+        "Flink supports stateful, event-time-aware, low-latency streaming with exactly-once guarantees.",
+        "Flink replaces the need for distributed file systems like HDFS."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -313,11 +313,11 @@
     {
       "question": "Which statements are true about **Apache Kafka** in an IoT data pipeline?",
       "options": [
-        "Kafka stores messages durably across replicated brokers for fault tolerance",
-        "Kafka supports event-at-a-time processing with millisecond-level latency",
-        "Kafka performs streaming analytics directly without requiring consumers",
-        "Kafka decouples producers and consumers, enabling scalable data pipelines",
-        "Kafka guarantees total order of messages globally across partitions"
+        "Kafka stores messages durably across replicated brokers for fault tolerance.",
+        "Kafka supports event-at-a-time processing with millisecond-level latency.",
+        "Kafka performs streaming analytics directly without requiring consumers.",
+        "Kafka decouples producers and consumers, enabling scalable data pipelines.",
+        "Kafka guarantees total order of messages globally across partitions."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -333,11 +333,11 @@
     {
       "question": "You are building a predictive analytics system for a manufacturing plant. It collects machine data in real time and combines it with maintenance logs. You need to enable **retraining of models** periodically and support **reactive decisions on the shop floor**.",
       "options": [
-        "Kafka Streams for event handling and lightweight transformation",
-        "Spark for batch model training using historical datasets",
-        "Flink for detecting stateful anomalies in vibration data",
-        "Storm for scalable batch ETL processing",
-        "HDFS for storing full sensor history and retraining data"
+        "Kafka Streams for event handling and lightweight transformation.",
+        "Spark for batch model training using historical datasets.",
+        "Flink for detecting stateful anomalies in vibration data.",
+        "Storm for scalable batch ETL processing.",
+        "HDFS for storing full sensor history and retraining data."
       ],
       "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice",
@@ -346,11 +346,11 @@
     {
       "question": "Which of the following are *distinctive challenges* in applying data-mining processes to IoT systems?",
       "options": [
-        "Ensuring consistent schema across high-frequency sensor streams",
-        "Executing complex models directly on constrained edge devices",
-        "Using relational databases to normalize historical IoT logs",
-        "Fusing multimodal sensor and contextual data in real time",
-        "Performing ad hoc OLAP queries on streaming data"
+        "Ensuring consistent schema across high-frequency sensor streams.",
+        "Executing complex models directly on constrained edge devices.",
+        "Using relational databases to normalize historical IoT logs.",
+        "Fusing multimodal sensor and contextual data in real time.",
+        "Performing ad hoc OLAP queries on streaming data."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -359,10 +359,10 @@
     {
       "question": "You are deploying a vibration-based fault detection model in a low-power IoT device. Which strategy best supports this use case?",
       "options": [
-        "Offload processing to a Hadoop cluster for centralized scoring",
-        "Use an interpretable tree-based model and optimize it for edge inference",
-        "Train a deep neural network with high accuracy and offload predictions to cloud",
-        "Execute SQL queries on embedded time-series data"
+        "Offload processing to a Hadoop cluster for centralized scoring.",
+        "Use an interpretable tree-based model and optimize it for edge inference.",
+        "Train a deep neural network with high accuracy and offload predictions to cloud.",
+        "Execute SQL queries on embedded time-series data."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -371,10 +371,10 @@
     {
       "question": "Which machine learning paradigm is best suited for an autonomous drone fleet that needs to learn optimal routing policies through repeated interaction with its environment?",
       "options": [
-        "Supervised learning",
-        "Unsupervised learning",
-        "Reinforcement learning",
-        "Deep learning"
+        "Supervised learning.",
+        "Unsupervised learning.",
+        "Reinforcement learning.",
+        "Deep learning."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -383,10 +383,10 @@
     {
       "question": "You are building an industrial anomaly detection system. You have no labels, but the system must detect unusual multivariate patterns in high-frequency sensor data. Which approach is most appropriate?",
       "options": [
-        "Decision trees",
-        "K-means clustering",
-        "Naive Bayes",
-        "Logistic regression"
+        "Decision trees.",
+        "K-means clustering.",
+        "Naive Bayes.",
+        "Logistic regression."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -395,11 +395,11 @@
     {
       "question": "You are evaluating several models for a real-time health monitoring system that detects abnormal heart rhythms from wearable data. Which of the following evaluation criteria are critical?",
       "options": [
-        "Low false negative rate to avoid missed alarms",
-        "Model interpretability for medical certification and auditing",
-        "High model complexity regardless of latency constraints",
-        "Real-time inference latency within acceptable bounds",
-        "Cross-validation accuracy above 95% on training data"
+        "Low false negative rate to avoid missed alarms.",
+        "Model interpretability for medical certification and auditing.",
+        "High model complexity regardless of latency constraints.",
+        "Real-time inference latency within acceptable bounds.",
+        "Cross-validation accuracy above 95% on training data."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -408,10 +408,10 @@
     {
       "question": "Which technique is most appropriate when deploying a trained classifier to **ultra-low-power microcontrollers** on wearable IoT devices?",
       "options": [
-        "Use a Random Forest with hundreds of deep trees",
-        "Compress the model using pruning or quantization",
-        "Convert the model into SQL logic for relational execution",
-        "Use a deep convolutional network trained on cloud GPU"
+        "Use a Random Forest with hundreds of deep trees.",
+        "Compress the model using pruning or quantization.",
+        "Convert the model into SQL logic for relational execution.",
+        "Use a deep convolutional network trained on cloud GPU."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -420,10 +420,10 @@
     {
       "question": "A factory floor anomaly detection system runs on a local gateway. It must adapt to new operating conditions without cloud access. Which strategy enables this?",
       "options": [
-        "Online learning using lightweight incremental models",
-        "Periodic retraining using centralized servers",
-        "Federated learning using mobile clients",
-        "Manual rule updates by technicians"
+        "Online learning using lightweight incremental models.",
+        "Periodic retraining using centralized servers.",
+        "Federated learning using mobile clients.",
+        "Manual rule updates by technicians."
       ],
       "correct_option": [0],
       "questionType": "singleChoice",
@@ -432,11 +432,11 @@
     {
       "question": "Which methods are commonly used in **TinyML** to enable ML execution on microcontrollers?",
       "options": [
-        "Model quantization (e.g., 32-bit to 8-bit)",
-        "Using interpretable rule-based expert systems",
-        "Knowledge distillation from complex teacher models",
-        "Replacing ML models with hard-coded thresholds",
-        "Pruning unused nodes in neural networks"
+        "Model quantization (e.g., 32-bit to 8-bit).",
+        "Using interpretable rule-based expert systems.",
+        "Knowledge distillation from complex teacher models.",
+        "Replacing ML models with hard-coded thresholds.",
+        "Pruning unused nodes in neural networks."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -445,11 +445,11 @@
     {
       "question": "Which of the following operations are considered *communication-intensive* and part of the online segment of the IoT data lifecycle?",
       "options": [
-        "Sensor data production and real-time transfer",
-        "Aggregation and in-network fusion",
-        "Preprocessing and schema harmonization",
-        "Localized querying for temporal monitoring",
-        "Long-term storage and offline archival"
+        "Sensor data production and real-time transfer.",
+        "Aggregation and in-network fusion.",
+        "Preprocessing and schema harmonization.",
+        "Localized querying for temporal monitoring.",
+        "Long-term storage and offline archival."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -458,11 +458,11 @@
     {
       "question": "You are designing an autonomous environmental monitoring system deployed in a remote region. Data should be processed and stored locally due to connectivity constraints. Which architectural and design choices are appropriate?",
       "options": [
-        "Use edge computing to combine sensing and processing",
-        "Store data in an in-memory NoSQL database on the edge",
-        "Push all raw data to a central server for compliance logging",
-        "Apply fusion techniques to reduce redundant data transmission",
-        "Perform local querying and only transmit alerts or aggregated summaries"
+        "Use edge computing to combine sensing and processing.",
+        "Store data in an in-memory NoSQL database on the edge.",
+        "Push all raw data to a central server for compliance logging.",
+        "Apply fusion techniques to reduce redundant data transmission.",
+        "Perform local querying and only transmit alerts or aggregated summaries."
       ],
       "correct_options": [0, 1, 3, 4],
       "questionType": "multipleChoice",
@@ -478,11 +478,11 @@
     {
       "question": "Which of the following are valid limitations or challenges when adapting relational DBMS technologies to IoT data environments?",
       "options": [
-        "Rigid schema structure incompatible with sensor data heterogeneity",
-        "Dependence on fixed data sources with predictable update patterns",
-        "Transparency requirements that hinder location-aware applications",
-        "High throughput streaming support with millisecond response guarantees",
-        "Strict ACID enforcement in highly dynamic, distributed data flows"
+        "Rigid schema structure incompatible with sensor data heterogeneity.",
+        "Dependence on fixed data sources with predictable update patterns.",
+        "Transparency requirements that hinder location-aware applications.",
+        "High throughput streaming support with millisecond response guarantees.",
+        "Strict ACID enforcement in highly dynamic, distributed data flows."
       ],
       "correct_options": [0, 1, 2, 4],
       "questionType": "multipleChoice",
@@ -491,11 +491,11 @@
     {
       "question": "Which of the following data flows best describe a fully centralized IoT architecture?",
       "options": [
-        "Production → Aggregation → Preprocessing → Storage → Analysis",
-        "Query → Production → In-network Processing → Local Delivery",
-        "Production → Collection → Filtering → Delivery → Query Response",
-        "Production → Edge Analysis → Local Archiving",
-        "Production → Fusion → Cloud Storage → Historical Trend Analysis"
+        "Production → Aggregation → Preprocessing → Storage → Analysis.",
+        "Query → Production → In-network Processing → Local Delivery.",
+        "Production → Collection → Filtering → Delivery → Query Response.",
+        "Production → Edge Analysis → Local Archiving.",
+        "Production → Fusion → Cloud Storage → Historical Trend Analysis."
       ],
       "correct_options": [0, 4],
       "questionType": "multipleChoice",
@@ -504,10 +504,10 @@
     {
       "question": "You are designing a logistics tracking system with RFID and GPS data from delivery vehicles. The data is high-frequency and unbounded. You need to detect route anomalies within seconds of their occurrence. What processing model fits best?",
       "options": [
-        "Batch processing using Hadoop",
-        "Stream processing using Apache Storm or Samza",
-        "In-memory OLAP cube processing",
-        "Microservice-based REST APIs backed by SQL"
+        "Batch processing using Hadoop.",
+        "Stream processing using Apache Storm or Samza.",
+        "In-memory OLAP cube processing.",
+        "Microservice-based REST APIs backed by SQL."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -516,11 +516,11 @@
     {
       "question": "Which features characterize **Apache Spark** and **Apache Flink** as hybrid processing frameworks?",
       "options": [
-        "Support for both batch and stream data workloads",
-        "Use of the MapReduce engine exclusively",
-        "Inclusion of libraries for ML, graph, and interactive querying",
-        "Stateless operation with zero memory usage",
-        "Flexibility to replace or extend processing engines"
+        "Support for both batch and stream data workloads.",
+        "Use of the MapReduce engine exclusively.",
+        "Inclusion of libraries for ML, graph, and interactive querying.",
+        "Stateless operation with zero memory usage.",
+        "Flexibility to replace or extend processing engines."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -536,11 +536,11 @@
     {
       "question": "Which of the following statements correctly describe the **purpose of ontologies in IoT data semantics**?",
       "options": [
-        "They support consistent interpretation of heterogeneous device data",
-        "They eliminate the need for schema design in all cases",
-        "They help enable semantic interoperability between platforms",
-        "They allow devices and solutions to be automatically matched",
-        "They force all data sources into a single canonical format"
+        "They support consistent interpretation of heterogeneous device data.",
+        "They eliminate the need for schema design in all cases.",
+        "They help enable semantic interoperability between platforms.",
+        "They allow devices and solutions to be automatically matched.",
+        "They force all data sources into a single canonical format."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -549,10 +549,10 @@
     {
       "question": "What is the goal of the Semantic Sensor Network (SSN) ontology developed by W3C?",
       "options": [
-        "To define data encryption protocols for sensors",
-        "To enable edge nodes to execute rule-based logic",
-        "To describe sensors, observations, actuators, and their relationships semantically",
-        "To manage streaming ingestion rates in real time"
+        "To define data encryption protocols for sensors.",
+        "To enable edge nodes to execute rule-based logic.",
+        "To describe sensors, observations, actuators, and their relationships semantically.",
+        "To manage streaming ingestion rates in real time."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -561,11 +561,11 @@
     {
       "question": "Which of the following factors contribute to the unique data analytics challenges in IoT systems?",
       "options": [
-        "Continuous high-volume data generation from distributed smart objects",
-        "Static data schemas and predictable data formats",
-        "The need for low-latency, real-time data processing at the edge",
-        "Homogeneous data types across all devices",
-        "Combination of structured, unstructured, and semi-structured data"
+        "Continuous high-volume data generation from distributed smart objects.",
+        "Static data schemas and predictable data formats.",
+        "The need for low-latency, real-time data processing at the edge.",
+        "Homogeneous data types across all devices.",
+        "Combination of structured, unstructured, and semi-structured data."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -581,11 +581,11 @@
     {
       "question": "Which technologies or methods are better suited for handling **unstructured IoT data**?",
       "options": [
-        "Convolutional neural networks (CNNs)",
-        "SQL queries in relational databases",
-        "Natural Language Processing (NLP)",
-        "JSON parsing in document stores",
-        "K-means clustering of log files"
+        "Convolutional neural networks (CNNs).",
+        "SQL queries in relational databases.",
+        "Natural Language Processing (NLP).",
+        "JSON parsing in document stores.",
+        "K-means clustering of log files."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -594,11 +594,11 @@
     {
       "question": "Which of the following correctly describe the differences between **structured** and **unstructured** data?",
       "options": [
-        "Structured data is easier to store and query using RDBMS",
-        "Unstructured data includes text, video, and images",
-        "Structured data requires cognitive computing for interpretation",
-        "Unstructured data often requires machine learning for analysis",
-        "Structured data cannot be used for business decisions"
+        "Structured data is easier to store and query using RDBMS.",
+        "Unstructured data includes text, video, and images.",
+        "Structured data requires cognitive computing for interpretation.",
+        "Unstructured data often requires machine learning for analysis.",
+        "Structured data cannot be used for business decisions."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice",
@@ -607,11 +607,11 @@
     {
       "question": "Which of the following are common use cases for **supervised learning** in IoT?",
       "options": [
-        "Classifying environmental conditions based on labeled sensor data",
-        "Segmenting users into groups for adaptive energy pricing",
-        "Predicting equipment failure based on historical sensor logs",
-        "Identifying anomalies in pressure data without labeled failure cases",
-        "Mapping sensor values to categorical device states (e.g., “Normal” vs. “Fault”)"
+        "Classifying environmental conditions based on labeled sensor data.",
+        "Segmenting users into groups for adaptive energy pricing.",
+        "Predicting equipment failure based on historical sensor logs.",
+        "Identifying anomalies in pressure data without labeled failure cases.",
+        "Mapping sensor values to categorical device states (e.g., “Normal” vs. “Fault”)."
       ],
       "correct_options": [0, 2, 4],
       "questionType": "multipleChoice",
@@ -620,10 +620,10 @@
     {
       "question": "Which type of machine learning model is most appropriate for **modeling complex nonlinear relationships** in IoT data, such as correlating temperature, humidity, and voltage fluctuations?",
       "options": [
-        "Linear regression",
-        "Decision tree",
-        "Feedforward neural network",
-        "Naive Bayes"
+        "Linear regression.",
+        "Decision tree.",
+        "Feedforward neural network.",
+        "Naive Bayes."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -632,10 +632,10 @@
     {
       "question": "In an IoT-based smart irrigation system, the goal is to learn when to activate water valves based on historical and current sensor data. Which type of learning is most appropriate?",
       "options": [
-        "Reinforcement learning",
-        "Clustering",
-        "Dimensionality reduction",
-        "Unsupervised learning"
+        "Reinforcement learning.",
+        "Clustering.",
+        "Dimensionality reduction.",
+        "Unsupervised learning."
       ],
       "correct_option": [0],
       "questionType": "singleChoice",
@@ -651,10 +651,10 @@
     {
       "question": "In an IoT analytics pipeline, where does **data fusion** most often occur?",
       "options": [
-        "Data production stage",
-        "Preprocessing and transformation stage",
-        "Long-term storage layer",
-        "Visualization layer"
+        "Data production stage.",
+        "Preprocessing and transformation stage.",
+        "Long-term storage layer.",
+        "Visualization layer."
       ],
       "correct_option": [1],
       "questionType": "singleChoice",
@@ -663,11 +663,11 @@
     {
       "question": "Which of the following describe **effective pipeline design principles** for IoT analytics?",
       "options": [
-        "Modular design to enable replacement of processing components",
-        "Strong coupling between storage and compute layers for consistency",
-        "Asynchronous communication between pipeline stages",
-        "Scalability to handle varying data ingestion rates",
-        "Real-time dashboards tightly integrated with data ingestion logic"
+        "Modular design to enable replacement of processing components.",
+        "Strong coupling between storage and compute layers for consistency.",
+        "Asynchronous communication between pipeline stages.",
+        "Scalability to handle varying data ingestion rates.",
+        "Real-time dashboards tightly integrated with data ingestion logic."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -676,10 +676,10 @@
     {
       "question": "Which statement best describes a **primary reason** why less than 1% of IoT data is currently used?",
       "options": [
-        "Most IoT devices store data in incompatible file systems",
-        "IoT analytics platforms are not supported by cloud providers",
-        "Data is primarily used for control and anomaly detection, not optimization and prediction",
-        "Bandwidth constraints make all analytics infeasible"
+        "Most IoT devices store data in incompatible file systems.",
+        "IoT analytics platforms are not supported by cloud providers.",
+        "Data is primarily used for control and anomaly detection, not optimization and prediction.",
+        "Bandwidth constraints make all analytics infeasible."
       ],
       "correct_option": [2],
       "questionType": "singleChoice",
@@ -688,11 +688,11 @@
     {
       "question": "Which challenges must IoT analytics applications overcome to be effective?",
       "options": [
-        "Data may arrive out of order or with missing timestamps",
-        "Standard database connectors suffice for all IoT sensors",
-        "IoT streams may be noisy, incomplete, or semantically diverse",
-        "Real-time responsiveness is often required for decision-making",
-        "All data can be processed in batch once transmission is complete"
+        "Data may arrive out of order or with missing timestamps.",
+        "Standard database connectors suffice for all IoT sensors.",
+        "IoT streams may be noisy, incomplete, or semantically diverse.",
+        "Real-time responsiveness is often required for decision-making.",
+        "All data can be processed in batch once transmission is complete."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice",
@@ -701,11 +701,11 @@
     {
       "question": "Which features distinguish **Apache Flink** from Spark and Storm in the context of IoT stream analytics?",
       "options": [
-        "Native support for event-time and out-of-order data",
-        "Superior performance for low-latency stream ETL",
-        "Exclusive support for batch processing",
-        "Fixed dataflow structures that cannot be composed arbitrarily",
-        "High-throughput, distributed, stateful stream computation"
+        "Native support for event-time and out-of-order data.",
+        "Superior performance for low-latency stream ETL.",
+        "Exclusive support for batch processing.",
+        "Fixed dataflow structures that cannot be composed arbitrarily.",
+        "High-throughput, distributed, stateful stream computation."
       ],
       "correct_options": [0, 1, 4],
       "questionType": "multipleChoice",
@@ -714,11 +714,11 @@
     {
       "question": "Which of the following are core functions of **IoT middleware and interoperability technologies**?",
       "options": [
-        "Enforcing relational constraints in SQL-based data stores",
-        "Structuring heterogeneous data streams into unified formats",
-        "Managing schema evolution and semantic alignment",
-        "Reducing ingestion rates through compression",
-        "Enabling communication across diverse device protocols"
+        "Enforcing relational constraints in SQL-based data stores.",
+        "Structuring heterogeneous data streams into unified formats.",
+        "Managing schema evolution and semantic alignment.",
+        "Reducing ingestion rates through compression.",
+        "Enabling communication across diverse device protocols."
       ],
       "correct_options": [1, 2, 4],
       "questionType": "multipleChoice",
@@ -727,11 +727,11 @@
     {
       "question": "You are tasked with selecting a stream processing framework for a system that prioritizes low latency and out-of-order event handling. Which platforms meet these needs?",
       "options": [
-        "Apache Storm",
-        "Apache Spark",
-        "Apache Flink",
-        "HDFS",
-        "MongoDB"
+        "Apache Storm.",
+        "Apache Spark.",
+        "Apache Flink.",
+        "HDFS.",
+        "MongoDB."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice",
