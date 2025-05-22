@@ -47,8 +47,8 @@
         "They struggle with temporal dependencies and conflicting conditions.",
         "They are not executable on low-powered gateway devices."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is incorrect: Rule engines can process frequent data, albeit simply.- **B** is incorrect: They do not rely on training data.- **D** is incorrect: They are *well suited* to run on constrained hardware."
     },
     {
@@ -59,8 +59,8 @@
         "Evaluate cost of multiple drone maneuvers to choose optimal path.",
         "Send alert to operator on geofence breach."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A**, **B**, and **D** all reflect fixed rule-based logic.- **C** exemplifies action selection via graph-based or cost-aware decision models."
     },
     {
@@ -84,8 +84,8 @@
         "Mean absolute error.",
         "Correlation coefficient."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is the most frequent value, not a measure of spread.- **C** is used in prediction error, not in distribution spread.- **D** describes relationships between variables, not spread."
     },
     {
@@ -109,8 +109,8 @@
         "It reduces data dimensionality while preserving variance.",
         "It transforms discrete variables into continuous ones."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is classification, not PCA.- **B** refers to mode, not dimensionality.- **D** is part of feature engineering, not PCA’s main goal."
     },
     {
@@ -147,8 +147,8 @@
         "Supervised classification.",
         "Anomaly detection."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is unsupervised and does not assign predefined classes.- **B** is dimensionality reduction, not classification.- **D** detects deviations, not class assignments."
     },
     {
@@ -185,8 +185,8 @@
         "Rules engine with location-aware logic.",
         "SQL-based relational backend."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** handles noise smoothing, but not decision logic.- **B** is unrelated—transmission filtering, not conditional logic.- **D** stores historical data but does not provide real-time logic for alerts."
     },
     {
@@ -210,8 +210,8 @@
         "Cloud-based supervised classification models.",
         "SQL-based long-term storage with predictive modeling."
       ],
-      "correct_option": [0],
-      "questionType": "singleChoice",
+      "correct_options": [0],
+      "questionType": "multipleChoice",
       "feedback": "- **B** and **C** introduce latency; not suitable for evasive maneuvers.- **D** is for strategic insight, not in-flight control."
     },
     {
@@ -248,8 +248,8 @@
         "Limited storage in sensor devices.",
         "Performing deep learning on the edge."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** and **D** are relevant to modeling/deployment phases, not preparation.- **C** concerns hardware constraints, not the data harmonization process."
     },
     {
@@ -268,8 +268,8 @@
     {
       "question": "You are designing a predictive maintenance system for wind turbines, which requires high-frequency vibration monitoring, out-of-order correction, and incremental model refinement. What platform is *best suited* to deploy this?",
       "options": ["Apache Hadoop", "Apache Flink", "Apache Storm", "HDFS"],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** and **D** are batch-oriented.- **C** lacks native support for stateful and event-time-aware processing, unlike Flink."
     },
     {
@@ -306,8 +306,8 @@
         "Flink supports stateful, event-time-aware, low-latency streaming with exactly-once guarantees.",
         "Flink replaces the need for distributed file systems like HDFS."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** confuses Spark’s micro-batching model with Flink’s native streaming engine.- **B** is partially true, but not a distinguishing factor vs. Spark.- **D** is incorrect: Flink *complements*, not replaces, storage systems"
     },
     {
@@ -326,8 +326,8 @@
     {
       "question": "Which of the following systems is most suitable for **real-time distributed analytics** in an industrial IoT setting that requires fault tolerance, message replication, and flexible integration with downstream analytics platforms?",
       "options": ["HDFS", "Apache Spark", "Apache Kafka", "Apache Storm"],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is batch-only.- **B** processes data but lacks Kafka’s ingestion and replication model.- **D** processes streams, but Kafka excels at fault-tolerant ingestion and coordination."
     },
     {
@@ -364,8 +364,8 @@
         "Train a deep neural network with high accuracy and offload predictions to cloud.",
         "Execute SQL queries on embedded time-series data."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** and **C** depend on connectivity and add latency.- **D** is not suited for inference or real-time decisions."
     },
     {
@@ -376,8 +376,8 @@
         "Reinforcement learning.",
         "Deep learning."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** requires labeled data and is passive.- **B** doesn’t involve interaction.- **D** is a model class, not a learning paradigm—it can be used within reinforcement learning."
     },
     {
@@ -388,8 +388,8 @@
         "Naive Bayes.",
         "Logistic regression."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A**, **C**, and **D** require labeled data.- **B** is a classic unsupervised method used for structure discovery and anomaly scoring."
     },
     {
@@ -413,8 +413,8 @@
         "Convert the model into SQL logic for relational execution.",
         "Use a deep convolutional network trained on cloud GPU."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is too large for embedded hardware.- **C** is not viable.- **D** is correct *only* for training, not deployment in constrained devices."
     },
     {
@@ -425,8 +425,8 @@
         "Federated learning using mobile clients.",
         "Manual rule updates by technicians."
       ],
-      "correct_option": [0],
-      "questionType": "singleChoice",
+      "correct_options": [0],
+      "questionType": "multipleChoice",
       "feedback": "- **B** and **C** depend on cloud/peer communication.- **D** is not scalable and lacks adaptability."
     },
     {
@@ -471,8 +471,8 @@
     {
       "question": "What type of IoT data source is best characterized by bidirectional communication, format flexibility, and self-tuning capabilities?",
       "options": ["Passive", "Active", "Dynamic", "Stateless"],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** and **B** are unidirectional.- **D** is a processing concept, not a source type."
     },
     {
@@ -509,8 +509,8 @@
         "In-memory OLAP cube processing.",
         "Microservice-based REST APIs backed by SQL."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- **A** and **C** cannot meet real-time latency.- **D** is not suitable for continuous stream ingestion"
     },
     {
@@ -529,8 +529,8 @@
     {
       "question": "You need to cache real-time telemetry data for a smart manufacturing dashboard. Reads must be extremely fast and data is ephemeral. What is the most appropriate storage solution?",
       "options": ["Redis", "HDFS", "Cassandra", "PostgreSQL"],
-      "correct_option": [0],
-      "questionType": "singleChoice",
+      "correct_options": [0],
+      "questionType": "multipleChoice",
       "feedback": "- **B** and **C** are good for persistence, not caching.- **D** is too heavyweight for high-speed ephemeral access"
     },
     {
@@ -554,8 +554,8 @@
         "To describe sensors, observations, actuators, and their relationships semantically.",
         "To manage streaming ingestion rates in real time."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A**, **B**, and **D** are unrelated to ontology function.- SSN enables semantic description of both sensor hardware and data output."
     },
     {
@@ -574,8 +574,8 @@
     {
       "question": "You are building a monitoring system for a fleet of trucks. The system should alert the driver if the engine is overheating, based on current sensor readings. Which type of analytics is primarily involved?",
       "options": ["Diagnostic", "Predictive", "Descriptive", "Prescriptive"],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "Descriptive analytics describes current or past states. Predictive and prescriptive would go beyond simply reporting that the engine is hot."
     },
     {
@@ -625,8 +625,8 @@
         "Feedforward neural network.",
         "Naive Bayes."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- **A** is limited to linear relationships.- **B** and **D** have interpretability and simplicity advantages but cannot capture deep nonlinearities as effectively."
     },
     {
@@ -637,15 +637,15 @@
         "Dimensionality reduction.",
         "Unsupervised learning."
       ],
-      "correct_option": [0],
-      "questionType": "singleChoice",
+      "correct_options": [0],
+      "questionType": "multipleChoice",
       "feedback": "No feedback available"
     },
     {
       "question": "You need to store high-frequency telemetry from IoT devices with flexible schemas and support for horizontal scalability. Which storage solution best meets these requirements?",
       "options": ["MySQL", "HDFS", "MongoDB", "PostgreSQL"],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- MongoDB is a document store well-suited for semi-structured IoT data.- **A** and **D** are RDBMS with limited schema flexibility.- **B** is good for batch storage but lacks flexible schema handling."
     },
     {
@@ -656,8 +656,8 @@
         "Long-term storage layer.",
         "Visualization layer."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "Fusion involves aligning, filtering, and merging data from multiple sensors—this happens during transformation/preprocessing before modeling or storage."
     },
     {
@@ -681,8 +681,8 @@
         "Data is primarily used for control and anomaly detection, not optimization and prediction.",
         "Bandwidth constraints make all analytics infeasible."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- Optimization and prediction provide higher value, but are underutilized.- **A**, **B**, and **D** are exaggerated or inaccurate explanations."
     },
     {

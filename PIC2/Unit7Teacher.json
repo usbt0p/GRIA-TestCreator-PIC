@@ -8,8 +8,8 @@
         "Cloud computing supports automated provisioning and elasticity, unlike ASP models.",
         "ASP allows more granular billing mechanisms compared to cloud computing."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "A is incorrect because cloud computing emphasizes **dynamic** (not static) provisioning.B is wrong; ASP lacked the elasticity that defines modern cloud infrastructures.D is partially true but misses the point—the key differentiator is not billing granularity but **automation and elasticity**."
     },
     {
@@ -46,8 +46,8 @@
         "Real-time response requirements in field applications.",
         "Lack of storage capacity in centralized data centers."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is a concern but not the **primary motivator** for edge computing.- *B* is misleading; edge computing does not reduce infrastructure costs directly.- *D* is incorrect; storage inefficiency is one problem, but **latency** and **real-time response** are central."
     },
     {
@@ -58,8 +58,8 @@
         "It combines access to data and services with tools for rapid application development.",
         "It prioritizes cost reduction over development capabilities."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is irrelevant to the dynamic and scalable nature of IoT services.- *B* describes IaaS, not PaaS.- *D* oversimplifies; cost is a factor, but **developer support** is the core strength of PaaS in IoT."
     },
     {
@@ -96,8 +96,8 @@
         "It provides on-demand virtual servers and elastic storage with minimal setup.",
         "It offers a closed system with proprietary APIs."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is incorrect; EC2 supports **compute and storage**.- *B* is misleading; **flexibility** is a feature of IaaS, not a limitation.- *D* is false; EC2 uses **well-known APIs and open hypervisors like Xen**."
     },
     {
@@ -121,8 +121,8 @@
         "Fog computing using batch-processing in a metropolitan data center.",
         "Public IoT cloud PaaS with remote access to sensor APIs."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- *A* introduces latency due to centralized processing, which is unsuitable for real-time needs.- *C* improves latency but still routes data to intermediate nodes.- *D* adds flexibility but does not guarantee **local real-time response**."
     },
     {
@@ -146,8 +146,8 @@
         "APIs facilitate interoperability and programmatic interaction among services, devices, and data.",
         "APIs replace the need for middleware in IoT applications."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* misunderstands firmware vs. integration roles.- *B* describes a user interface, not an API.- *D* is incorrect; middleware is often built *on top* of APIs."
     },
     {
@@ -171,8 +171,8 @@
         "Manual data transfer to offline data centers for model training.",
         "Fog nodes in dealerships processing data and sending logs quarterly."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- *A* fails to support global aggregation and model updates.- *C* is operationally impractical.- *D* introduces latency incompatible with predictive maintenance loops."
     },
     {
@@ -183,8 +183,8 @@
         "Edge computing is typically standalone or cloud-connected, while fog computing emphasizes coordination across a distributed infrastructure with shared APIs and hierarchical layering.",
         "Fog computing is limited to hardware devices that directly sense the environment."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is incorrect; virtualization is more common in fog nodes.- *B* misrepresents fog computing, which has its own security layers.- *D* confuses fog with sensor hardware. Fog nodes may not include sensors directly."
     },
     {
@@ -208,8 +208,8 @@
         "Fog nodes managing local control and aggregation, coordinated by a parent cloud.",
         "Peer-to-peer sensor mesh with direct inter-node decision making."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* and *B* introduce unacceptable latency.- *D* lacks the **scalability and control** expected in distributed industrial deployments."
     },
     {
@@ -233,8 +233,8 @@
         "Enabling local processing and command execution even when offline.",
         "Synchronizing non-IP devices directly with HTTP services."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* contradicts the **autonomous operation** design of fog nodes.- *B* overstates Greengrass's service discovery features.- *D* misunderstands that Greengrass **relies on MQTT**, not HTTP."
     },
     {
@@ -245,8 +245,8 @@
         "East-west data fusion and localized decision-making at fog nodes.",
         "Public-key distribution to enable secure Wi-Fi roaming."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* refers to cloud VM management, irrelevant to real-time drone operations.- *B* addresses scalability but not **local autonomy**.- *D* is too narrow and doesn’t address the **core need for local processing** under poor connectivity."
     },
     {
@@ -270,8 +270,8 @@
         "It enables heterogeneous sensor types to communicate through a unified interface.",
         "It synchronizes all sensor readings to a common clock domain."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* reverses the usual flow (Zigbee ➝ IP translation).- *B* contradicts the goal—protocol abstraction enables **interoperability**.- *D* is false; abstraction doesn't necessarily handle **synchronization**."
     },
     {
@@ -295,8 +295,8 @@
         "Fog computing only supports the reduce phase of MapReduce to simplify architecture.",
         "Fog nodes use HDFS to cache raw sensor data for map operations."
       ],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- *A* misrepresents architectural roles; MQTT handles **messaging**, not computation.- *C* is false; fog computing supports **end-to-end workflows**, not just reduce.- *D* is technically possible but not **definitional** to the analogy."
     },
     {
@@ -307,8 +307,8 @@
         "Cloud-only architecture hosted in a remote AWS data center.",
         "Multi-tier fog topology with GPGPU-equipped intermediate nodes."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* and *B* provide fast local responses.- *D* enables **hierarchical load distribution** with acceleration.- *C* introduces **unacceptable latency** (≥40 ms US-local; >100 ms international)."
     },
     {
@@ -327,8 +327,8 @@
     {
       "question": "According to latency measurements in the reading, what is a reasonable best-case latency (round-trip) between a US West client and an AWS cloud data center?",
       "options": ["3 ms", "10 ms", "39 ms", "140 ms"],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* and *B* represent **local or edge-level latency**.- *D* is true for **Europe (London)**; the US West best case is **~39 ms**"
     },
     {
@@ -352,15 +352,15 @@
         "Gateway-based fog node supporting BLE, protocol abstraction, and local inference.",
         "VM-based edge node requiring constant internet access for function deployment."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is limited by BLE capabilities and cannot support heavy inference.- *B* adds unnecessary complexity and doesn’t suit **low-latency WPAN**.- *D* violates the design constraint of **resilience to intermittent connectivity**."
     },
     {
       "question": "In OpenStack, which component is responsible for launching and managing multiple cloud applications using templates that resemble AWS CloudFormation?",
       "options": ["Keystone", "Heat", "Glance", "Ceilometer"],
-      "correct_option": [1],
-      "questionType": "singleChoice",
+      "correct_options": [1],
+      "questionType": "multipleChoice",
       "feedback": "- *A* is for **identity management**.- *C* handles **VM images**, not orchestration.- *D* supports **telemetry**, not deployment control."
     },
     {
@@ -384,8 +384,8 @@
         "Peer-to-peer node monitoring and hardware-level security.",
         "Dynamic container orchestration from the cloud."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* assumes **WAN availability** and is irrelevant in isolated deployments.- *B* is not security-related.- *D* fails if **internet connectivity is lost**."
     },
     {
@@ -409,8 +409,8 @@
         "Augmenting compute capacity using GPGPUs or FPGAs for vision and ML tasks.",
         "Pre-loading firmware updates onto constrained devices."
       ],
-      "correct_option": [2],
-      "questionType": "singleChoice",
+      "correct_options": [2],
+      "questionType": "multipleChoice",
       "feedback": "- *A* relates to networking, not acceleration.- *B* concerns UI extensibility, not compute enhancement.- *D* falls under **device management**, not compute acceleration"
     }
   ]
