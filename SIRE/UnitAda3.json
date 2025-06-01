@@ -98,6 +98,116 @@
       ],
       "correct_option": 3,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Imagina que el robot de la Fase 4 está trabajando y se le asigna la meta de \"Cargar Batería\". ¿Qué acción tomará el robot?",
+      "options": [
+        "El robot ejecutará una acción de \"Cargar\", priorizando la recarga de la batería.",
+        "El robot continuará buscando obstáculos y evitará el uso de la batería.",
+        "El robot continuará con su tarea original sin tomar en cuenta la batería.",
+        "El robot evitará el obstáculo, pero no tomará ninguna acción con respecto a la batería."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En la Fase 2, si la batería está baja y hay un obstáculo, y ambas tareas están listas para actuar, ¿cuál actúa primero?",
+      "options": [
+        "La de cargar batería, porque tiene mayor prioridad.",
+        "Ninguna actúa, porque hay conflicto de condiciones.",
+        "La de evitar obstáculo, porque la condición es más urgente.",
+        "Depende del orden de activación de las tareas."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En Fase 4 se introducen metas jerárquicas. ¿Cuál es la mejor razón para dividir planificación estratégica y táctica?",
+      "options": [
+        "Para que el robot tenga más memoria disponible.",
+        "Para separar decisiones de alto nivel (qué hacer) de las de bajo nivel (cómo hacerlo).",
+        "Para que las acciones se ejecuten en menos tiempo.",
+        "Para poder usar más tareas paralelas."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucedería si en la Fase 4, el planificador Estratégico no asignara la meta \"Moverse\" cuando el camino está libre?",
+      "options": [
+        "El planificador Táctico asignaría la acción de \"Girar\" de forma predeterminada.",
+        "El robot avanzaría automáticamente, aunque no se asignara la meta \"Moverse\".",
+        "El planificador Táctico no recibiría la meta \"Moverse\" y, por lo tanto, no asignaría ninguna acción de movimiento.",
+        "El robot entraría en un bucle de espera, sin realizar ninguna acción."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "El robot de la Fase 1 recibe continuamente comandos secuenciales para actuar. Si se le indica primero avanzar y luego girar, ¿qué sucede?",
+      "options": [
+        "No puede ejecutar ninguna acción sin planificador táctico.",
+        "Intenta ejecutar ambos al mismo tiempo.",
+        "Ejecuta primero avanzar y luego girar, porque no hay concurrencia.",
+        "Se queda esperando nuevas órdenes sin actuar."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "El robot está en la Fase 2. Detecta que hay un obstáculo delante y también que la batería está baja. Las tareas de evitar obstáculos y cargar batería están activas.\n¿Qué acción realizará primero el robot, y por qué?",
+      "options": [
+        "Ambas acciones a la vez, porque el robot puede ejecutar varias acciones simultáneamente sin prioridad.",
+        "La acción con menor prioridad, porque se activó primero.",
+        "La acción con mayor prioridad, porque las tareas se ejecutan según prioridad fija.",
+        "Evitar el obstáculo, porque es una condición más peligrosa."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Si en la Fase 4 el estado es \"Hay_Obstaculo => False\" y \"Camino_Libre => True\", ¿qué acción debería asignar el planificador Táctico?",
+      "options": [
+        "No se asignaría ninguna acción ya que el robot no debería actuar sin una meta clara.",
+        "\"Avanzar\" con prioridad 1.",
+        "\"Girar\" con prioridad 2.",
+        "\"Cargar\" con prioridad 3."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En la Fase 4, si se modifica el planificador Táctico para que \"Girar\" tenga una prioridad de 0, ¿qué impacto tendría en la ejecución?",
+      "options": [
+        "No se ejecutaría ninguna acción debido a que la prioridad 0 es inválida.",
+        "\"Girar\" sería ignorado, ya que tendría una prioridad inferior a las otras acciones.",
+        "La acción \"Girar\" se ejecutaría simultáneamente con \"Cargar\" debido a que ambas tendrían la misma prioridad.",
+        "\"Girar\" tendría la mayor prioridad y sería ejecutado antes que las otras acciones."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la mejor forma de mejorar el rendimiento de un robot en la Fase 3 con metas múltiples?",
+      "options": [
+        "Ignorar las prioridades y trabajar de manera aleatoria para obtener resultados más rápidos.",
+        "Evitar el uso de prioridades entre las metas para no interferir en el proceso.",
+        "Establecer una meta única y no considerar los demás factores del entorno.",
+        "Organizar las metas en un sistema jerárquico para que se resuelvan de manera estratégica."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Durante la ejecución del ciclo de la Fase 3, el planificador detecta que no hay obstáculos, pero la batería está baja. El robot tiene tareas con diferentes prioridades. ¿Cuál sería un error común al implementar esto?",
+      "options": [
+        "No respetar las prioridades fijas entre tareas concurrentes.",
+        "Permitir que el robot avance sin revisar la batería.",
+        "Implementar un planificador táctico que no use prioridades.",
+        "Permitir que todas las tareas se bloqueen entre sí."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
     }
   ]
 }
