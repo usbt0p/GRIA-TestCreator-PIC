@@ -112,12 +112,7 @@
     },
     {
       "question": "¿Qué instrucción se usa para terminar una tarea de forma controlada?",
-      "options": [
-        "exit;",
-        "terminate;",
-        "end;",
-        "abort;"
-      ],
+      "options": ["exit;", "terminate;", "end;", "abort;"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
