@@ -55,7 +55,7 @@
       "correct_option": 3,
       "questionType": "singleChoice"
     },
-   {
+    {
       "question": "Tu compañera necesita usar un tipo que tú definiste, pero no debería saber cómo está implementado internamente. ¿Qué deberías hacer?",
       "options": [
         "Definir el tipo en la especificación como \"record\".",
