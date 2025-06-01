@@ -4,7 +4,7 @@ from joinJsons import join_jsons
 import json
 
 
-def get_moovi_data(use_file=None):
+def get_moovi_data(use_file=None, assume_correct=False):
     with open(use_file, encoding="utf-8") as html_file:
         content = html_file.read()
         page = BeautifulSoup(content, "html.parser")
@@ -24,10 +24,22 @@ def get_moovi_data(use_file=None):
         opcion = item.find_all("div", class_="flex-fill ml-1")
         opcion = [elem.text for elem in opcion]
 
-        # find response in the style of "r0 correct"
-        correct = item.find_all("div", class_=re.compile(".* correct"))
-        correct = [elem.find("div", class_="flex-fill ml-1").text for elem in correct]
-        correct_n = [opcion.index(elem) for elem in correct]
+        correct_n = []
+        if assume_correct:  # We will assume the checked options are correct
+            correct = []
+            inputs = item.find_all("input", attrs={"checked": "checked"})
+            for inp in inputs:
+                # Find the corresponding label or option text
+                label_id = inp.get("aria-labelledby")
+                if label_id:
+                    label_elem = item.find(id=label_id)
+                if label_elem:
+                    correct.append(
+                        label_elem.find(  # to remove answernumber
+                            "div", class_="flex-fill ml-1"
+                        ).text
+                    )
+            correct_n = [opcion.index(elem) for elem in correct]
 
         # Colle a sección coa pregunta e feedback, e inclúe o feedback se a pregunta o ten
         feedback = item.find_all("div", class_="feedback")
@@ -71,8 +83,9 @@ def format_into_json(questions, answers, type, correct, filepath=None) -> dict:
     for q, a, t, c in zip(questions, answers, type, correct):
         if t == 2:
             try:
-                correct_option = (c[0] if isinstance(c, list) else c,)
-            except IndexError:
+                correct_option = c[0] if isinstance(c, list) else c
+            except IndexError as e:
+                print(f"Error getting correct option")
                 correct_option = -1
             type = "singleChoice"
             dict_q = {
@@ -109,8 +122,8 @@ if __name__ == "__main__":
     Después de ejecutar, revisad el JSON. Modificad a mano los -1 que encontréis en correct_option.
     """
 
-    path = "moovi.html"
-    newfile_name = "new.json"
+    path = "./moovi.html"
+    newfile_name = "./new.json"
     data = get_moovi_data(use_file=path)
 
     # Example usage
@@ -121,4 +134,4 @@ if __name__ == "__main__":
     json_output = format_into_json(q, a, t, c, filepath=newfile_name)
 
     # Example usage
-    join_jsons("SIRE/Unit3.json", "new.json", filepath="joined.json")
+    join_jsons("SIRE/UnitAda3.json", "new.json", filepath="SIRE/UnitAda3.json")
