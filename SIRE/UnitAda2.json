@@ -109,6 +109,72 @@
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué instrucción se usa para terminar una tarea de forma controlada?",
+      "options": [
+        "exit;",
+        "terminate;",
+        "end;",
+        "abort;"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuándo puede ejecutarse la cláusula `terminate` en una estructura `select`?",
+      "options": [
+        "Cuando se produce una excepción dentro de la tarea.",
+        "Solo cuando la tarea está bloqueada por un `delay`.",
+        "En cualquier momento, incluso si hay entradas activas.",
+        "Cuando ninguna entrada está habilitada y la tarea principal ha terminado."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué tipo de sincronización básica se usa en Ada con `accept`?",
+      "options": [
+        "Exclusión mutua entre tareas protegidas.",
+        "Sincronización entre tareas mediante espera activa.",
+        "Acceso no bloqueante.",
+        "Llamadas concurrentes sin esperar respuesta."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué permite la instrucción `delay` dentro de una tarea?",
+      "options": [
+        "Finaliza la tarea inmediatamente.",
+        "Duplica el contenido de la entrada.",
+        "Evita que otras tareas accedan al buffer.",
+        "Hace que la tarea espere cierto tiempo antes de continuar."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si una tarea usa `delay 1.0` dentro de un `select`?",
+      "options": [
+        "Se ignoran las entradas restantes.",
+        "La tarea espera 1 segundo si no hay actividad.",
+        "Se reinicia el buffer automáticamente.",
+        "Se pausa el programa completo."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucede si se usa `select` sin `when` ni `delay`?",
+      "options": [
+        "La tarea puede quedar bloqueada si no hay entradas disponibles.",
+        "La tarea se ejecuta en paralelo sin esperas.",
+        "Todas las entradas se ejecutan automáticamente.",
+        "El compilador lanza un error de sintaxis."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
     }
   ]
 }
