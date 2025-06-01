@@ -12,6 +12,83 @@
       "questionType": "singleChoice"
     },
     {
+      "question": "¿Cuál de las siguientes afirmaciones es FALSA sobre paquetes en Ada?",
+      "options": [
+        "Se pueden compilar por separado.",
+        "Los paquetes permiten organizar mejor el código.",
+        "Se deben compilar antes de ser usados por otros archivos.",
+        "Los paquetes no pueden contener procedimientos."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si una tarea tiene una entrada y otra parte del programa llama a esa entrada?",
+      "options": [
+        "La tarea se convierte en una función.",
+        "La tarea termina automáticamente.",
+        "La tarea se sincroniza y ejecuta el código asociado a esa entrada.",
+        "La llamada a la entrada produce un error en tiempo de ejecución."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la mejor razón para usar un tipo privado en Ada?",
+      "options": [
+        "Hace que el programa se ejecute más rápido.",
+        "Protege los datos y obliga a usar las operaciones definidas.",
+        "Facilita el acceso directo a todas las variables del tipo.",
+        "Reduce el número de líneas de código."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Tienes un programa con una tarea sencilla que imprime mensajes en paralelo al programa principal. ¿Qué comportamiento esperas?",
+      "options": [
+        "La tarea no se ejecuta si no la llamas explícitamente.",
+        "La tarea solo empieza cuando termina el programa principal.",
+        "La tarea bloquea completamente el programa principal.",
+        "La tarea y el programa principal se ejecutan al mismo tiempo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Tu compañera necesita usar un tipo que tú definiste, pero no debería saber cómo está implementado internamente. ¿Qué deberías hacer?",
+      "options": [
+        "Definir el tipo en la especificación como \"record\".",
+        "Darle acceso completo al cuerpo del paquete.",
+        "Declarar el tipo como \"private\" en la especificación y definirlo en el cuerpo.",
+        "Escribir todo el código en el archivo principal."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué permite el uso del `select` dentro del cuerpo de una tarea?",
+      "options": [
+        "Convertir una tarea en una función.",
+        "Evitar el uso de `accept`.",
+        "Controlar varias entradas posibles, eligiendo la que esté activa.",
+        "Ejecutar todas las entradas al mismo tiempo."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la mejor descripción de lo que contiene un paquete en Ada?",
+      "options": [
+        "Declaraciones públicas (en la especificación) y detalles internos (en el cuerpo).",
+        "Solo funciones y procedimientos.",
+        "Variables globales compartidas.",
+        "Solo tipos y constantes."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
       "question": "¿Qué ocurre si olvidas compilar el cuerpo de un paquete antes de usarlo?",
       "options": [
         "Se generan advertencias pero no errores.",

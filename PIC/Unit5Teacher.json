@@ -395,7 +395,7 @@
         "Loudspeaker.",
         "EEPROM."
       ],
-      "correct_options": [0, 1, 3],
+      "correct_options": [0, 1],
       "questionType": "multipleChoice"
     },
     {
