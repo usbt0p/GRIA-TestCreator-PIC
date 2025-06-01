@@ -21,6 +21,105 @@
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si declaras un tipo como privado en un paquete?",
+      "options": [
+        "Cualquier parte del programa puede acceder libremente a sus componentes.",
+        "Solo se puede usar el tipo mediante las operaciones definidas en el paquete.",
+        "El compilador genera automáticamente todas las operaciones necesarias.",
+        "El tipo deja de existir en tiempo de ejecución."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué pasa si el programa llama a una entrada de una tarea que aún no ha llegado al `accept`?",
+      "options": [
+        "Se ejecuta otra entrada de la tarea automáticamente.",
+        "La llamada se pierde si la tarea no está lista.",
+        "El programa se bloquea hasta que la tarea llegue al `accept`.",
+        "El compilador da error."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es FALSA respecto a los tipos privados?",
+      "options": [
+        "Ocultan la implementación al usuario.",
+        "Solo se pueden manipular a través de operaciones del paquete.",
+        "Mejoran el encapsulamiento del código.",
+        "Permiten que el usuario acceda directamente a los campos del tipo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Si no usas la cláusula \"with\" en tu código para un paquete que necesitas, ¿qué ocurre?",
+      "options": [
+        "El programa compila pero no se comporta correctamente.",
+        "El paquete se incluye automáticamente porque Ada detecta que lo usas.",
+        "Solo se generan advertencias, pero no errores.",
+        "El compilador no sabe que debe incluir ese paquete y da error."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si una tarea tiene una entrada y otra parte del programa llama a esa entrada?",
+      "options": [
+        "La tarea se convierte en una función.",
+        "La llamada a la entrada produce un error en tiempo de ejecución.",
+        "La tarea termina automáticamente.",
+        "La tarea se sincroniza y ejecuta el código asociado a esa entrada."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ventaja tiene separar la especificación del cuerpo en un paquete?",
+      "options": [
+        "Aumenta la velocidad de ejecución.",
+        "Reduce el número de archivos en el proyecto.",
+        "Obliga al programador a usar solo funciones matemáticas.",
+        "Permite ocultar los detalles de implementación."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Estás creando un paquete llamado \"Operaciones\". Quieres que otros archivos puedan usarlo. ¿Qué debes hacer?",
+      "options": [
+        "Escribir una especificación y un cuerpo del paquete, y compilar ambos.",
+        "Escribir el código dentro del cuerpo principal de tu programa.",
+        "Crear un archivo \".txt\" con las operaciones.",
+        "Solo declarar las funciones sin cuerpo."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la mejor razón para usar un tipo privado en Ada?",
+      "options": [
+        "Reduce el número de líneas de código.",
+        "Protege los datos y obliga a usar las operaciones definidas.",
+        "Hace que el programa se ejecute más rápido.",
+        "Facilita el acceso directo a todas las variables del tipo."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de estos paquetes predefinidos de Ada se usa para manejar cadenas de texto sin longitud fija?",
+      "options": [
+        "Ada.Strings.Unbounded",
+        "Ada.Calendar",
+        "Ada.Integer_Text_IO",
+        "Ada.Numerics"
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
     }
   ]
 }
