@@ -10,6 +10,17 @@
       ],
       "correct_option": -1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de estas opciones NO es correcta al declarar una tarea parametrizada?",
+      "options": [
+        "Puedes declarar múltiples instancias con diferentes valores.",
+        "La tarea parametrizada no puede tener entradas.",
+        "Puedes usar parámetros como en los procedimientos.",
+        "Puedes definir su comportamiento en el cuerpo del paquete."
+      ],
+      "correct_option": -1,
+      "questionType": "singleChoice"
     }
   ]
 }

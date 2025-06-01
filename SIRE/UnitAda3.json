@@ -98,6 +98,17 @@
       ],
       "correct_option": 3,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucedería si en la Fase 4, el planificador Estratégico no asignara la meta \"Moverse\" cuando el camino está libre?",
+      "options": [
+        "El robot entraría en un bucle de espera, sin realizar ninguna acción.",
+        "El planificador Táctico asignaría la acción de \"Girar\" de forma predeterminada.",
+        "El planificador Táctico no recibiría la meta \"Moverse\" y, por lo tanto, no asignaría ninguna acción de movimiento.",
+        "El robot avanzaría automáticamente, aunque no se asignara la meta \"Moverse\"."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
     }
   ]
 }
